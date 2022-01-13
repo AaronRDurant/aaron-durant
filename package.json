@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "Aaron Durant",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Aaron Durant's personal website, built with Gatsby.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Aaron Durant",
   "dependencies": {
     "gatsby": "^4.4.0",
     "gatsby-plugin-feed": "^4.4.0",
@@ -33,15 +30,10 @@
   "devDependencies": {
     "prettier": "^2.5.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
-  "main": "n/a",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "https://github.com/AaronRDurant/personal-website"
   },
   "scripts": {
     "build": "gatsby build",
