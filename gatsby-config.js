@@ -3,7 +3,7 @@ module.exports = {
     title: `Aaron Durant`,
     author: {
       name: `Aaron Durant`,
-      summary: `who is a web developer in Michigan.`,
+      summary: `who is a front-end developer in Michigan fascinated by the intersection of web design and media.`,
     },
     description: `Aaron Durant's little spot on the internet.`,
     siteUrl: `https://ad-personal-website.netlify.app/`,

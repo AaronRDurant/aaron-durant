@@ -11,7 +11,7 @@
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-3xl);
+  --maxWidth-wrapper: var(--maxWidth-4xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -57,9 +57,10 @@
   --color-primary: #222222;
   --color-text: #454545;
   --color-text-light: #888888;
+  --color-accent: #F0F0F0;
+  --color-link: #FF0000;
   /* --color-heading: #1a202c;
   --color-heading-black: black; */
-  --color-accent: #d1dce5;
 }
 
 /* HTML elements */
@@ -86,17 +87,13 @@ body {
 }
 
 main {
-  padding-top: var(--spacing-6);
+  padding-top: var(--spacing-5);
+  margin: var(--spacing-4);
+  flex: 1;
 }
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
-}
-
-.footer-text {
-  color: var(--color-text-light);
-  font-size: var(--fontSize-0);
-  text-align: center;
 }
 
 hr {
@@ -114,7 +111,7 @@ h4,
 h5,
 h6 {
   /* font-family: var(--font-heading); */
-  margin-top: var(--spacing-12);
+  margin-top: var(--spacing-8);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
   letter-spacing: -0.025em;
@@ -242,12 +239,18 @@ table thead tr th {
 /* Link */
 
 a {
+  text-decoration: none;
+  font-weight: var(--fontWeight-semibold);
   color: var(--color-primary);
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid var(--color-link);
 }
 
-a:hover,
-a:focus {
-  text-decoration: none;
+a:hover {
+  background: var(--color-link);
+  color: white;
+  border-top: 2px solid var(--color-link);
+  border-bottom: 2px solid var(--color-link);
 }
 
 /* Navigation */
@@ -266,18 +269,18 @@ a:focus {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  height: 100%;
 }
 
 .navigation nav a {
   padding: 1rem;
   font-weight: var(--fontWeight-medium);
-  text-decoration: none;
+  border: none;
 }
 
 .navigation nav a:hover {
+  color: var(--color-primary);
   text-decoration: underline;
-  color: var(--color-text-light);
+  background: none;
 }
 
 .navigation nav a.name {
@@ -287,14 +290,14 @@ a:focus {
 }
 
 .navigation nav a.name:hover {
-  color: #CC0000;
+  color: var(--color-link);
 }
 
 .navigation nav a.active {
   color: var(--color-text-light);
 }
 
-.navigation nav a.brand span {
+.navigation nav a.name span {
   white-space: nowrap;
 }
 
@@ -304,38 +307,98 @@ a:focus {
   margin: var(--spacing-0) auto;
   max-width: var(--maxWidth-wrapper);
   padding: var(--spacing-5) var(--spacing-2);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-.global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
+.flex {
+  display: flex;
 }
 
-.global-header {
-  margin-bottom: var(--spacing-12);
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-4);
+}
+
+.hero {
+  margin-bottom: var(--spacing-16);
+}
+
+.hero-content h1 {
+  font-size: var(--fontSize-7);
+}
+
+.hero-content p {
+  font-size: var(--fontSize-3);
+}
+
+.hero-photo {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  /* Seemingly the only way to get border-radius to work in Safari. #annoying */
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  border-radius: 8px;
+  border: 1px solid var(--color-accent);
+  margin-left: var(--spacing-6);
+}
+
+.subheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: var(--spacing-1);
+  border-bottom: 1px solid var(--color-accent);
+}
+
+.subheading a {
+  font-size: var(--fontSize-1);
+  border-top: none;
+}
+
+.subheading a:hover {
+  background: none;
+  color: var(--color-primary);
+  border-top: none;
 }
 
 .post-list-item {
-  margin-bottom: var(--spacing-8);
-  margin-top: var(--spacing-8);
+  margin: var(--spacing-2) var(--spacing-0);
+  padding: var(--spacing-3);
 }
 
-.post-list-item small {
+.post-list-item:hover {
+  background: var(--color-accent);
+  border-radius: 8px;
+}
+
+.post-list-item time {
   color: var(--color-text-light);
+  text-align: center;
 }
 
-.post-list-item p {
-  margin-bottom: var(--spacing-0);
-}
-
-.post-list-item h2 {
-  font-size: var(--fontSize-4);
+.post-list-item h3 {
+  font-size: var(--fontSize-2);
   color: var(--color-primary);
-  margin-bottom: var(--spacing-2);
-  margin-top: var(--spacing-0);
+  margin: 0;
 }
 
-.post-list-item header {
-  margin-bottom: var(--spacing-4);
+.post-link {
+  text-decoration: none;
+}
+
+.post-list-items {
+  margin: 0;
 }
 
 .bio {
@@ -351,6 +414,7 @@ a:focus {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
   min-width: 50px;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
   border-radius: 100%;
 }
 
@@ -359,12 +423,24 @@ a:focus {
 }
 
 .blog-post header p {
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-1);
   /* font-family: var(--font-heading); */
 }
 
 .blog-post-nav ul {
   margin: var(--spacing-0);
+}
+
+.blog-post-nav a:hover {
+  background: none;
+  color: var(--color-primary);
+  border-top: none;
+}
+
+.footer-text {
+  color: var(--color-text-light);
+  font-size: var(--fontSize-0);
+  text-align: center;
 }
 
 .gatsby-highlight {
@@ -373,7 +449,11 @@ a:focus {
 
 /* Media queries */
 
-@media (max-width: 42rem) {
+@media (max-width: 900px) {
+  .desktop-only {
+    display: none !important;
+  }
+
   blockquote {
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
     margin-left: var(--spacing-0);
