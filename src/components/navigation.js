@@ -16,33 +16,28 @@ const Navigation = () => {
 
   return (
     <header className="navigation">
-      <nav>
-        <Link to="/" className="name">
-          <span>{siteTitle}</span>
-        </Link>
-      </nav>
-      <div>
+      <div className="navigation-inner">
         <nav>
-          <Link to="/about" activeClassName="active">
-            About
-          </Link>
-          <Link to="/blog" activeClassName="active">
-            Blog
-          </Link>
-          <Link to="/now" activeClassName="active">
-            Now
+          <Link to="/" className="name">
+            <span>{siteTitle}</span>
           </Link>
         </nav>
+        <div>
+          <nav>
+            <Link to="/about" activeClassName="active">
+              About
+            </Link>
+            <Link to="/projects" activeClassName="active">
+              Projects
+            </Link>
+            <Link to="/blog" activeClassName="active">
+              Blog
+            </Link>
+          </nav>
+        </div>
       </div>
     </header>
   )
 }
 
 export default Navigation
-
-
-// Build out the menu with: header, nav, Link, nav, Link, close header
-
-// Then add CSS to make it look not horrible
-
-// also remove anything "header" in style.css

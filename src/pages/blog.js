@@ -1,18 +1,17 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const Home = ({ data, location }) => {
+const Blog = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
 
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <Seo title={siteTitle} />
+        <Seo title={"Blog • " + siteTitle} />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the directory you specified for the "gatsby-source-filesystem" plugin in gatsby-config.js).
         </p>
@@ -22,33 +21,18 @@ const Home = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title={siteTitle} />
+      <Seo title={"Blog • " + siteTitle} />
       <article>
-        <header className="hero">
-          <div className="flex-content">
-            <div className="hero-content">
-              <h1>
-                Hey, I'm Aaron
-                <span role="img" aria-label="Hand waving emoji"> 👋🏻</span>
-              </h1>
-              <p>I'm a front-end developer in Michigan fascinated by the intersection of web design and content. This is my tiny corner of the internet where I <Link to="/blog">write</Link>.</p>
-            </div>
-            <StaticImage
-              className="hero-photo desktop-only"
-              formats={["auto", "webp", "avif"]}
-              src="../images/me-with-donut.jpg"
-              width={250}
-              height={250}
-              quality={100}
-              alt="Aaron Durant"
-            />
+        <header>
+          <div className="container">
+            <h1>Blog</h1>
+            <p className="description">
+              Musings on coding, motorsports, fitness, and more, maybe with a few tutorials and helpful resources thrown in here and there.
+            </p>
           </div>
         </header>
 
-        <div>
-          <h2 className="subheading">
-            <span>Latest Writing</span> <Link to="/blog">View all →</Link>
-          </h2>
+        <section className="container">
           <ol style={{ listStyle: `none` }}>
             {posts.map(post => {
               const title = post.frontmatter.title || post.fields.slug
@@ -71,13 +55,13 @@ const Home = ({ data, location }) => {
               )
             })}
           </ol>
-        </div>
+        </section>
       </article>
     </Layout>
   )
 }
 
-export default Home
+export default Blog
 
 export const pageQuery = graphql`
   query {

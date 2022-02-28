@@ -258,21 +258,32 @@ a:hover {
 .navigation {
   top: 0;
   left: 0;
-  display: flex;
-  justify-content: space-between;
   width: 100%;
-  align-items: center;
+}
+
+.navigation-inner {
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+
 }
 
 .navigation nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: var(--spacing-4);
+  height: 100%;
 }
 
 .navigation nav a {
-  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-3);
+  padding: var(--spacing-3);
   font-weight: var(--fontWeight-medium);
   border: none;
 }
@@ -287,6 +298,7 @@ a:hover {
   font-size: var(--fontSize-3);
   font-weight: var(--fontWeight-semibold);
   text-decoration: none;
+  justify-content: flex-start;
 }
 
 .navigation nav a.name:hover {
@@ -328,6 +340,10 @@ a:hover {
   display: flex;
   justify-content: space-between;
   gap: var(--spacing-4);
+}
+
+.page-content {
+  margin-top: var(--spacing-8);
 }
 
 .hero {
@@ -435,6 +451,22 @@ a:hover {
   background: none;
   color: var(--color-primary);
   border-top: none;
+}
+
+/* article header {
+  text-align: center;
+} */
+
+article .description {
+  text-align: center;
+  font-size: var(--fontSize-3);
+  margin-bottom: var(--spacing-16);
+  color: var(--color-text-light);
+}
+
+.container h1 {
+  margin: var(--spacing-4);
+  text-align: center;
 }
 
 .footer-text {

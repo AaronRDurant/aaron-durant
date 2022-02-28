@@ -3,9 +3,9 @@ module.exports = {
     title: `Aaron Durant`,
     author: {
       name: `Aaron Durant`,
-      summary: `who is a front-end developer in Michigan fascinated by the intersection of web design and media.`,
+      summary: `who is a front-end developer in Michigan fascinated by the intersection of web design and content.`,
     },
-    description: `Aaron Durant's little spot on the internet.`,
+    description: `Aaron Durant's personal website, built with Gatsby.`,
     siteUrl: `https://ad-personal-website.netlify.app/`,
     social: {
       twitter: `AaronRDurant`,
