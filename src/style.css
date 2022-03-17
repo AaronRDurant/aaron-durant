@@ -88,7 +88,7 @@ body {
 
 main {
   padding-top: var(--spacing-5);
-  margin: var(--spacing-4);
+  margin: var(--spacing-6);
   flex: 1;
 }
 
@@ -267,7 +267,6 @@ a:hover {
   display: flex;
   height: 100%;
   justify-content: space-between;
-
 }
 
 .navigation nav {
@@ -283,7 +282,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   gap: var(--spacing-3);
-  padding: var(--spacing-3);
+  margin: var(--spacing-3) 0;
+  padding: 0 var(--spacing-3);
   font-weight: var(--fontWeight-medium);
   border: none;
 }
@@ -313,38 +313,7 @@ a:hover {
   white-space: nowrap;
 }
 
-/* Custom classes */
-
-.global-wrapper {
-  margin: var(--spacing-0) auto;
-  max-width: var(--maxWidth-wrapper);
-  padding: var(--spacing-5) var(--spacing-2);
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-align-center {
-  align-items: center;
-}
-
-.flex-justify-between {
-  justify-content: space-between;
-}
-
-.flex-content {
-  display: flex;
-  justify-content: space-between;
-  gap: var(--spacing-4);
-}
-
-.page-content {
-  margin-top: var(--spacing-8);
-}
+/* Hero */
 
 .hero {
   margin-bottom: var(--spacing-16);
@@ -386,6 +355,60 @@ a:hover {
   background: none;
   color: var(--color-primary);
   border-top: none;
+}
+
+/* Projects */
+
+.project {
+  display: flex;
+  margin-top: var(--spacing-10);
+  border-bottom: 1px solid var(--color-accent);
+}
+
+.project .emoji {
+  font-size: var(--fontSize-7);
+}
+
+.project .name {
+  font-size: var(--fontSize-4);
+  margin: 0 0 var(--spacing-3) var(--spacing-6);
+}
+
+.project .description {
+  margin-left: var(--spacing-6);
+}
+
+/* Custom classes */
+
+.global-wrapper {
+  margin: var(--spacing-0) auto;
+  max-width: var(--maxWidth-wrapper);
+  padding: var(--spacing-5) var(--spacing-2);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-4);
+}
+
+.page-content {
+  margin-top: var(--spacing-8);
 }
 
 .post-list-item {
@@ -457,16 +480,18 @@ a:hover {
   text-align: center;
 } */
 
-article .description {
+.page-header {
   text-align: center;
+}
+
+.page-header h1 {
+  margin: var(--spacing-4);
+}
+
+.page-header p {
   font-size: var(--fontSize-3);
   margin-bottom: var(--spacing-16);
   color: var(--color-text-light);
-}
-
-.container h1 {
-  margin: var(--spacing-4);
-  text-align: center;
 }
 
 .footer-text {

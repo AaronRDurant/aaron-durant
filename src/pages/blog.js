@@ -24,15 +24,15 @@ const Blog = ({ data, location }) => {
       <Seo title={"Blog • " + siteTitle} />
       <article>
         <header>
-          <div className="container">
+          <div className="page-header">
             <h1>Blog</h1>
-            <p className="description">
+            <p>
               Musings on coding, motorsports, fitness, and more, maybe with a few tutorials and helpful resources thrown in here and there.
             </p>
           </div>
         </header>
 
-        <section className="container">
+        <section>
           <ol style={{ listStyle: `none` }}>
             {posts.map(post => {
               const title = post.frontmatter.title || post.fields.slug
