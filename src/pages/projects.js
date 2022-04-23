@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -8,61 +7,40 @@ import Seo from "../components/seo"
 const projectsList = [
   {
     name: 'Personal Website',
-    slug: 'personal-website',
-    description: 'My tiny corner of the internet.',
+    description: 'My tiny corner of the internet, built with Gatsby, hosted on Netlify, and maintained with incremental correctness.',
+    words: 'https://www.aarondurant.com/hello-world/',
+    code: 'personal-website',
+    demo: 'https://www.aarondurant.com',
     emoji: '🤘🏻',
-    label: 'Hand making devil horns sign',
-    url: 'https://www.aarondurant.com/',
+    label: 'Hand making devil horns sign emoji'
   },
   {
-    name: 'fastFlix (React)',
-    slug: 'fastFlix-React-client',
-    description: 'The front-end of the web app fastFlix, built with React.',
-    emoji: '🔯',
-    label: 'Six-pointed star',
+    name: 'ARMA Sport Concept',
+    description: 'Reimagining the website for nutritional supplement brand ARMA Sport using React.',
+    words: 'https://www.aarondurant.com/hello-world/',
+    code: 'arma-concept',
+    demo: 'https://arma-concept.netlify.app',
+    emoji: '💪🏻',
+    label: 'Flexed bicep emoji'
   },
   {
-    name: 'fastFlix (Angular)',
-    slug: 'fastFlix-Angular-client',
-    description: 'An alternative front-end for the web app fastFlix, built with Angular.',
-    emoji: '🅰️',
-    label: 'Letter A',
+    name: 'Pipe Dream Blog',
+    description: 'A blog built using Next.js and the Ghost CMS. I aim to consistently write here about motocross, Supercross, fitness, and more.',
+    words: 'https://www.aarondurant.com/hello-world/',
+    code: 'pipe-dream',
+    demo: 'https://nextjs-ghost-blog.netlify.app',
+    emoji: '🏁',
+    label: 'Checkered flag emoji'
   },
   {
-    name: 'fastFlix Back-end',
-    slug: 'fastFlix-backend',
-    description: 'A REST API that provides access to a database of movies and users as the server-side of the MERN/MEAN stack app fastFlix.',
-    emoji: '😴',
-    label: 'Sleeping face',
-  },
-  {
-    name: 'meet',
-    slug: 'meet',
-    description: 'A serverless PWA built with React using test-driven development and the Google Calendar API to fetch and display events.',
-    emoji: '🗓',
-    label: 'Calendar',
-  },
-  {
-    name: 'Chat App',
-    slug: 'chat-app',
-    description: 'A mobile chat app built with Expo and React Native that saves data with Google Firebase.',
-    emoji: '💬',
-    label: 'Thought bubble',
-  },
-  {
-    name: 'Simple Portfolio',
-    slug: 'simple-portfolio',
-    description: 'A simple portfolio website using no frameworks or libraries — just HTML and CSS.',
-    emoji: '👨🏻‍💻',
-    label: 'Man technologist',
-  },
-  {
-    name: 'Pokédex',
-    slug: 'pokedex',
-    description: 'A small web app that loads data from an external API and enables detailed viewing of Pokémon.',
-    emoji: '🟡',
-    label: 'Yellow circle',
-  },
+    name: 'Some Sort of Full-Stack App',
+    description: 'This is a to-be-determined and yet-to-be-built project. More to come!',
+    words: 'https://www.aarondurant.com/hello-world/',
+    code: 'fastflix-backend',
+    demo: 'https://nextjs-ghost-blog.netlify.app',
+    emoji: '💻',
+    label: 'Laptop computer emoji'
+  }
 ]
 
 const Projects = ({ data, location }) => {
@@ -76,7 +54,7 @@ const Projects = ({ data, location }) => {
           <div className="page-header">
             <h1>Projects</h1>
             <p>
-              Highlights of my web development work, with source code viewable on <Link to="https://github.com/AaronRDurant" target="_blank">GitHub</Link>.
+              My favorite few web development projects. Source code is on <Link to="https://github.com/AaronRDurant" target="_blank">GitHub</Link>.
             </p>
           </div>
         </header>
