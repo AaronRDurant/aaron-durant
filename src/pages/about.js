@@ -1,7 +1,6 @@
 import * as React from "react"
-// import { Link, graphql } from "gatsby"
-import { graphql } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
+import { Link, graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -23,10 +22,26 @@ const About = ({ data, location }) => {
         </header>
 
         <section>
-          <p>I&#39;m Aaron Durant, an aspiring front-end web developer in Michigan fascinated by the intersection of web design and content.</p>
-          <p>Web development was something I thought I&#39;d learn about later in life as a hobby, but I recognized my affinity for it in the second half of 2020 and immediately began growing my skills. I aim to start in my first role as a front-end developer in 2022.</p>
-          <p>I opted out of college and spent time during and after high school maintaining a website and producing a podcast about motorsports. I attended three dozen events as an accredited media member and learned a lot.</p>
-          <p>I enjoy working out (riding something with pedals and lifting weights in particular), snowboarding, playing the drums, reading, spending time with my family and girlfriend, and being as close to the stage as possible at heavy metal concerts.</p>
+          <StaticImage
+            src="../images/Aaron-Durant-Catanzaro-Supercross.jpg"
+            alt="Aaron Durant at the 2022 Indianapolis Supercross."
+            placeholder="blurred"
+            layout="fixed"
+            width={750}
+            className="about-image"
+          />
+          <p>Howdy, I'm Aaron Durant, an aspiring front-end web developer in Michigan. This is my tiny corner of the internet where I display projects I've created, write about things I enjoy, and procrastinate over unimportant details knowing I'll probably just redesign this whole website around the new year anyway.</p>
+          <p>I come to the land of web development from the adjacent nation of online publishing, where I created and maintained websites about motorsports for about five years. Though I halted my pursuit of a motorsports journalism career, my experience enables me to bring forward invaluable lessons on good writing, effective communication, and general business. (Some of the most interesting parts of racing happen off the racetrack. Also, the media business is hard.)</p>
+          <p>I figured I'd get around to learning true web development later on at least as a hobby, but when I realized I enjoyed tinkering with the layout of <a href="https://www.theapex.racing/" target="_blank">The Apex</a> more than I enjoyed writing for it, I knew I needed to grow my skills and make a change. After a yearlong project-based online bootcamp and several months of additional self-directed learning, I aim to start in my first role as a front-end developer in 2022.</p>
+          <p>Away from my laptop, I enjoy reading, snowboarding, playing drums, and spending time with my girlfriend. Most prominent, though, is my love for motocross. Reconnecting in 2020 with the sport that comprised my childhood sparked the crazy idea of participating again and while I'm not there yet, I could talk to you all day about fitness, nutrition, and every other related component of the sport. I suppose that's what my <Link to="/blog">blog</Link> is for.</p>
+          <h2>Connect</h2>
+          <p>You can contact me via email at <strong>aaron</strong> at <strong>aarondurant.com</strong>. I'm also on:</p>
+          <ul>
+            <li><a href="https://twitter.com/AaronRDurant" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com/AaronRDurant" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/aaron-durant/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.strava.com/athletes/70892495" target="_blank">Strava</a></li>
+          </ul>
         </section>
       </article>
     </Layout>

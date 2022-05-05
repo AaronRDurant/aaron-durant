@@ -1,8 +1,8 @@
 {
-  "name": "Aaron Durant",
+  "name": "aaron-durant",
   "private": true,
   "description": "Aaron Durant's personal website, built with Gatsby.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Aaron Durant",
   "dependencies": {
     "gatsby": "^4.13.1",
