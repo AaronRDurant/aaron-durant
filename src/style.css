@@ -361,7 +361,7 @@ a:hover {
 
 .project {
   display: flex;
-  margin-top: var(--spacing-10);
+  margin-top: var(--spacing-8);
   border-bottom: 1px solid var(--color-accent);
 }
 
@@ -380,6 +380,33 @@ a:hover {
 
 .project .description {
   margin-left: var(--spacing-6);
+  margin-bottom: var(--spacing-4);
+}
+
+.project .buttons {
+  margin-left: var(--spacing-6);
+  margin-bottom: var(--spacing-8);
+  display: flex;
+  gap: var(--spacing-3);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project .buttons a {
+  display: inline-block;
+  line-height: normal;
+  padding: var(--spacing-2) var(--spacing-3) var(--spacing-2);
+  border: 1px solid var(--color-text);
+  color: var(--color-text);
+  font-size: var(--fontSize-1);
+  font-weight: var(--fontWeight-semibold);
+  border-radius: 8px;
+  background: var(--color-accent);
+}
+
+.project .buttons a:hover {
+  border: 1px solid var(--color-link);
+  color: var(--color-link);
 }
 
 /* Custom classes */
