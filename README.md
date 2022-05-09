@@ -7,4 +7,4 @@
   Aaron Durant
 </h1>
 
-My personal website, built with Gatsby and maintained with [incremental correctness](https://brianlovin.com/writing/incrementally-correct-personal-websites).
+My personal website, built with Gatsby.

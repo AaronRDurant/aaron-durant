@@ -27,7 +27,7 @@ const Blog = ({ data, location }) => {
           <div className="page-header">
             <h1>Blog</h1>
             <p>
-              Musings on coding, motorsports, fitness, and more, maybe with a few tutorials and helpful resources thrown in here and there.
+              Musings on coding, motorsports, and more.
             </p>
           </div>
         </header>

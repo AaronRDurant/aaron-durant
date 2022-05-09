@@ -3,7 +3,7 @@
   "private": true,
   "description": "Aaron Durant's personal website, built with Gatsby.",
   "version": "1.0.0",
-  "author": "Aaron Durant",
+  "author": "Aaron Durant <aaron@aarondurant.com> (https://www.aarondurant.com/)",
   "dependencies": {
     "gatsby": "^4.13.1",
     "gatsby-plugin-feed": "^4.13.0",

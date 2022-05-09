@@ -31,12 +31,12 @@ const Home = ({ data, location }) => {
                 Hey, I'm Aaron
                 <span role="img" aria-label="Hand waving emoji"> 👋🏻</span>
               </h1>
-              <p>I'm a front-end developer in Michigan fascinated by the intersection of web design and content. This is my tiny corner of the internet where I <Link to="/blog">write</Link>.</p>
+              <p>I'm a front-end developer in Michigan intrigued by the intersection of web design and content. This is my tiny spot on the internet where I <Link to="/blog">write</Link>.</p>
             </div>
             <StaticImage
               className="hero-photo desktop-only"
               formats={["auto", "webp", "avif"]}
-              src="../images/me-with-donut.jpg"
+              src="../images/Aaron-Durant-with-donut.jpg"
               width={250}
               height={250}
               quality={100}
@@ -86,7 +86,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      limit: 4
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       nodes {
         excerpt
         fields {

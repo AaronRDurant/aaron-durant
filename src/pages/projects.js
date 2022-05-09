@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 const projectsList = [
   {
     name: 'Personal Website',
-    description: 'My tiny corner of the internet, built with Gatsby, hosted on Netlify, and maintained with incremental correctness.',
+    description: 'Built with Gatsby and hosted on Netlify. This version of aarondurant.com marks a significant step forward from the personal websites I made on WordPress over the last several years but never really updated.',
     words: 'https://www.aarondurant.com/hello-world/',
     code: 'personal-website',
     demo: 'https://www.aarondurant.com',
@@ -16,7 +16,7 @@ const projectsList = [
   },
   {
     name: 'ARMA Sport Concept',
-    description: 'Reimagining the website for nutritional supplement brand ARMA Sport using React.',
+    description: 'In putting my spin on the website of nutritional supplement brand ARMA Sport, I fortified my knowledge of React and CSS, including Flexbox, Grid, the BEM methodology, media queries, and more.',
     words: 'https://www.aarondurant.com/hello-world/',
     code: 'arma-concept',
     demo: 'https://arma-concept.netlify.app',
@@ -25,21 +25,21 @@ const projectsList = [
   },
   {
     name: 'Pipe Dream Blog',
-    description: 'A blog built using Next.js and the Ghost CMS. I aim to consistently write here about motocross, Supercross, fitness, and more.',
-    words: 'https://www.aarondurant.com/hello-world/',
+    description: 'Given my background in writing about racing, ceaseless thoughts about writing about motocross, and my deep interest in static websites paired with a headless CMS, it was only a matter of time before Pipe Dream hit a server near you.',
+    words: 'https://pipe-dream.netlify.app/',
     code: 'pipe-dream',
-    demo: 'https://nextjs-ghost-blog.netlify.app',
+    demo: 'https://pipe-dream.netlify.app/',
     emoji: '🏁',
     label: 'Checkered flag emoji'
   },
   {
-    name: 'Some Sort of Full-Stack App',
-    description: 'This is a to-be-determined and yet-to-be-built project. More to come!',
+    name: 'Responsive Portfolio',
+    description: 'A modern portfolio website using HTML, CSS and JavaScript. Here, I demonstrate a few basic skills and display what I worked on when I was first learning to code via CareerFoundry.',
     words: 'https://www.aarondurant.com/hello-world/',
-    code: 'fastflix-backend',
-    demo: 'https://nextjs-ghost-blog.netlify.app',
-    emoji: '💻',
-    label: 'Laptop computer emoji'
+    code: 'simple-portfolio',
+    demo: 'https://aaronrdurant.github.io/simple-portfolio/',
+    emoji: '👨🏻‍💻',
+    label: 'Man using laptop emoji'
   }
 ]
 
@@ -54,7 +54,7 @@ const Projects = ({ data, location }) => {
           <div className="page-header">
             <h1>Projects</h1>
             <p>
-              My favorite few web development projects. Source code is on <Link to="https://github.com/AaronRDurant" target="_blank">GitHub</Link>.
+              My favorite web development projects. Source code is on <Link to="https://github.com/AaronRDurant" target="_blank">GitHub</Link>.
             </p>
           </div>
         </header>
