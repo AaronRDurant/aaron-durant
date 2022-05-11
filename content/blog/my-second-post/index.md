@@ -1,6 +1,6 @@
 ---
-title: My Second Post!
-date: "2021-01-06T23:46:37.121Z"
+title: How To Connect a Gatsby Website With the Ghost CMS
+date: "2022-05-11"
 ---
 
 Wow! I love blogging so much already.

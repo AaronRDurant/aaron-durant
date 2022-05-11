@@ -1,6 +1,6 @@
 ---
-title: New Beginnings
-date: "2021-01-12T22:40:32.169Z"
+title: On the Intersection of Web Design and Content
+date: "2022-05-12"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ---
 

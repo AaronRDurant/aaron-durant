@@ -34,7 +34,7 @@ const Home = ({ data, location }) => {
               <p>I'm a front-end developer in Michigan intrigued by the intersection of web design and content. This is my tiny spot on the internet where I display <Link to="/projects">projects</Link> I've made and <Link to="/blog">write</Link>.</p>
             </div>
             <StaticImage
-              className="hero-photo desktop-only"
+              className="hero-photo"
               formats={["auto", "webp", "avif"]}
               src="../images/Aaron-Durant-with-donut.jpg"
               width={250}
@@ -61,7 +61,7 @@ const Home = ({ data, location }) => {
                       itemScope
                       itemType="http://schema.org/Article"
                     >
-                      <div className="flex-content">
+                      <div className="latest">
                         <h3 itemProp="headline">{title}</h3>
                         <small><time>{post.frontmatter.date}</time></small>
                       </div>

@@ -37,19 +37,15 @@ const Bio = () => {
         layout="fixed"
         formats={["auto", "webp", "avif"]}
         src="../images/Aaron-Durant-Long-Beach.jpg"
-        width={50}
-        height={50}
+        width={100}
+        height={100}
         quality={100}
         alt="Profile picture"
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null} For more,
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank" rel="noreferrer">
-            follow me on Twitter
-          </a>
-          .
+          Written by <strong>{author.name}</strong>
+          {author?.summary || null}
         </p>
       )}
     </div>

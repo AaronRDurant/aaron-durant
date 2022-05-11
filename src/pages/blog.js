@@ -45,7 +45,7 @@ const Blog = ({ data, location }) => {
                       itemScope
                       itemType="http://schema.org/Article"
                     >
-                      <div className="flex-content">
+                      <div className="latest">
                         <h3 itemProp="headline">{title}</h3>
                         <small><time>{post.frontmatter.date}</time></small>
                       </div>

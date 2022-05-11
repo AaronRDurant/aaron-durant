@@ -58,7 +58,7 @@ const Projects = ({ data, location }) => {
         <section>
           {projectsList.map((project) => (
             <div className="project" key={project.name}>
-              <div>
+              <div className="desktop-only">
                 <span role="img" aria-label="{project.label}" className="emoji">{project.emoji}</span>
               </div>
               <div>

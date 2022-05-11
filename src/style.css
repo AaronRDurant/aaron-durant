@@ -325,11 +325,11 @@ a:hover {
 
 .hero-content p {
   font-size: var(--fontSize-3);
+  max-width: 500px;
 }
 
 .hero-photo {
-  width: 100%;
-  max-width: 250px;
+  width: 250px;
   height: auto;
   /* Seemingly the only way to get border-radius to work in Safari. #annoying */
   -webkit-mask-image: -webkit-radial-gradient(white, black);
@@ -483,7 +483,8 @@ a:hover {
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
-  min-width: 50px;
+  max-width: 50px;
+  max-height: 50px;
   -webkit-mask-image: -webkit-radial-gradient(white, black);
   border-radius: 100%;
 }
@@ -506,10 +507,6 @@ a:hover {
   color: var(--color-primary);
   border-top: none;
 }
-
-/* article header {
-  text-align: center;
-} */
 
 .page-header {
   text-align: center;
@@ -535,9 +532,19 @@ a:hover {
   margin-bottom: var(--spacing-8);
 }
 
+.latest {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Media queries */
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
+  main {
+    padding-top: 0;
+    margin: var(--spacing-3);
+  }
+
   .desktop-only {
     display: none !important;
   }
@@ -546,8 +553,114 @@ a:hover {
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
     margin-left: var(--spacing-0);
   }
+
   ul,
   ol {
     list-style-position: inside;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: var(--fontSize-4);
+  }
+
+  h3 {
+    font-size: var(--fontSize-3);
+  }
+
+  p {
+    margin-bottom: var(--spacing-6);
+  }
+
+  ul li,
+  ol li {
+    margin-bottom: calc(var(--spacing-5) / 2);
+  }
+
+  .global-wrapper {
+    margin: 0;
+    padding: var(--spacing-2) var(--spacing-2);
+  }
+
+  .hero {
+    margin-bottom: var(--spacing-5);
+  }
+
+  .hero-photo {
+    margin: 0 0 1rem 0;
+    max-width: 150px;
+  }
+
+  .hero-content h1 {
+    font-size: var(--fontSize-6);
+    margin-top: 0;
+  }
+
+  .hero-content p {
+    font-size: var(--fontSize-2);
+  }
+
+  .post-list-item {
+    margin: 0;
+    padding: var(--spacing-2) 0;
+  }
+
+  .post-list-item h3 {
+    font-size: var(--fontSize-1);
+  }
+
+  .post-list-item time {
+    font-size: var(--fontSize-0);
+  }
+
+  .page-header p {
+    line-height: var(--lineHeight-normal);
+    margin-bottom: var(--spacing-8);
+  }
+
+  .project .name,
+  .project .description,
+  .project .buttons {
+    margin-left: 0;
+  }
+
+  .project .name {
+    text-align: center;
+  }
+
+  .project .buttons {
+    justify-content: center;
+  }
+
+  .flex-content {
+    flex-direction: column;
+  }
+
+  .hero .flex-content {
+    align-items: flex-start;
+  }
+
+  .flex-content div {
+    order: 2;
+  }
+
+  .flex-content .hero-photo {
+    order: 1;
+  }
+
+  .latest h3 {
+    max-width: 300px;
+  }
+
+  .bio {
+    flex-direction: column;
+  }
+
+  .bio-avatar {
+    max-width: 80px;
+    max-height: 80px;
+    margin: auto;
+    margin-bottom: var(--spacing-6);
   }
 }
