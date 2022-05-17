@@ -1,5 +1,30 @@
-import * as React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import * as React from 'react'
+import { Link, graphql, useStaticQuery } from 'gatsby'
+
+// emoji: '🤘🏻',
+// <span role="img" aria-label="{project.label}" className="emoji">{project.emoji}</span>
+
+
+const navItems = [
+  {
+    label: 'About',
+    url: '/about',
+    emoji: '👨🏻‍💻',
+    description: 'Man using computer emoji'
+  },
+  {
+    label: 'Projects',
+    url: '/projects',
+    emoji: '💻',
+    description: 'Laptop emoji'
+  },
+  {
+    label: 'Blog',
+    url: '/blog',
+    emoji: '✏️',
+    description: 'Pencil emoji'
+  }
+]
 
 const Navigation = () => {
   const data = useStaticQuery(graphql`
@@ -17,22 +42,19 @@ const Navigation = () => {
   return (
     <header className="navigation">
       <div className="navigation-inner">
-        <nav>
-          <Link to="/" className="name">
+        <nav className="brand-section">
+          <Link to="/" className="brand">
             <span>{siteTitle}</span>
           </Link>
         </nav>
         <div>
           <nav>
-            <Link to="/about" activeClassName="active">
-              About
-            </Link>
-            <Link to="/projects" activeClassName="active">
-              Projects
-            </Link>
-            <Link to="/blog" activeClassName="active">
-              Blog
-            </Link>
+            {navItems.map((item) => (
+              <Link to={item.url} key={item.label} activeClassname="active">
+                <span role="img" aria-label={item.description} className="emoji">{item.emoji}</span>
+                <div>{item.label}</div>
+              </Link>
+            ))}
           </nav>
         </div>
       </div>

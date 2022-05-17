@@ -31,7 +31,7 @@ const Home = ({ data, location }) => {
                 Hey, I'm Aaron
                 <span role="img" aria-label="Hand waving emoji"> 👋🏻</span>
               </h1>
-              <p>I'm a front-end developer in Michigan intrigued by the intersection of web design and content. This is my tiny spot on the internet where I display <Link to="/projects">projects</Link> I've made and <Link to="/blog">write</Link>.</p>
+              <p>I'm a front-end developer in Michigan intrigued by the intersection of web design and content. This is my tiny spot on the internet where I display <Link to="/projects">projects</Link> I've made and things I <Link to="/blog">write</Link>.</p>
             </div>
             <StaticImage
               className="hero-photo"

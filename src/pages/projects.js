@@ -59,7 +59,7 @@ const Projects = ({ data, location }) => {
           {projectsList.map((project) => (
             <div className="project" key={project.name}>
               <div className="desktop-only">
-                <span role="img" aria-label="{project.label}" className="emoji">{project.emoji}</span>
+                <span role="img" aria-label={project.label} className="emoji">{project.emoji}</span>
               </div>
               <div>
                 <h2 className="name">{project.name}</h2>
