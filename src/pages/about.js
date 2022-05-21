@@ -22,9 +22,9 @@ const About = ({ data, location }) => {
 
         <section>
           <p>Howdy! I'm Aaron Durant, an aspiring front-end web developer in Michigan. This is my tiny spot on the internet where I share <Link to="/projects">projects</Link> I've made and things I <Link to="/blog">write</Link>.</p>
-          <p>I come to the land of web development from the adjacent nation of online publishing. During my five-year pursuit of a motorsports journalism career, I developed an eye for good writing and an interest in the intersection of web design and content through attending three dozen major motorsports events and publishing more than 1,000 articles.</p>
-          <p>I knew I needed to make a change when I realized I preferred tinkering in WordPress with the design of <a href="https://www.theapex.racing/" target="_blank" rel="noreferrer">The Apex</a> over writing for it. After a yearlong project-based online bootcamp and several months of additional self-directed learning, I aim to start in my first role as a front-end developer in 2022.</p>
-          <p>Away from my laptop, I enjoy reading, snowboarding, biking, playing golf, playing drums, and spending time with my girlfriend and family. I also really love motocross.</p>
+          <p>I come to the land of web development from the adjacent nation of online publishing. In working on a motorsports journalism project simply for the love of it for five years, I developed a deep interest in the intersection of web design and content through attending three dozen motorsports events and publishing more than 1,000 articles.</p>
+          <p>Realizing I preferred improving the design of <a href="https://www.theapex.racing/" target="_blank" rel="noreferrer">The Apex</a> instead of writing for it, I knew I needed to make a change. So, after a year-long project-based online bootcamp and several months of additional self-directed learning, I aim to start in my first role as a front-end developer in 2022.</p>
+          <p>I enjoy reading, biking, weight training, playing golf, playing drums, snowboarding, and spending time with my girlfriend and family. I also really love motocross.</p>
           <h2>Connect</h2>
           <p>You can contact me via email at <strong>aaron</strong> at <strong>aarondurant.com</strong>. I'm also on:</p>
           <ul>

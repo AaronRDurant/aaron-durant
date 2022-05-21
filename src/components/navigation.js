@@ -1,10 +1,6 @@
 import * as React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
-// emoji: '🤘🏻',
-// <span role="img" aria-label="{project.label}" className="emoji">{project.emoji}</span>
-
-
 const navItems = [
   {
     label: 'About',

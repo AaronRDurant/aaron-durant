@@ -25,7 +25,7 @@ const projectsList = [
     name: 'Pipe Dream Blog',
     description: 'Given my background in writing about racing, ceaseless thoughts about writing about motocross, and my deep interest in static websites paired with a headless CMS, it was only a matter of time before Pipe Dream hit a server near you.',
     code: 'pipe-dream',
-    demo: 'https://pipe-dream.netlify.app/',
+    demo: 'https://pipedreammoto.com',
     emoji: '🏁',
     label: 'Checkered flag emoji'
   },
@@ -33,7 +33,7 @@ const projectsList = [
     name: 'Responsive Portfolio',
     description: 'A modern portfolio website using HTML, CSS and JavaScript. Here, I demonstrate a few basic skills and display what I worked on when I was first learning to code via CareerFoundry.',
     code: 'simple-portfolio',
-    demo: 'https://aaronrdurant.github.io/simple-portfolio/',
+    demo: 'https://simple-portfolio-ad.netlify.app',
     emoji: '👨🏻‍💻',
     label: 'Man using laptop emoji'
   }
