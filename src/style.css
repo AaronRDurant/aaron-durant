@@ -523,7 +523,7 @@ a:hover {
 }
 
 .page-header h1 {
-  margin: var(--spacing-4);
+  margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
 
 .page-header p {
@@ -683,6 +683,10 @@ a:hover {
 
   .post-list-item time {
     font-size: var(--fontSize-0);
+  }
+
+  .page-header {
+    margin-top: var(--spacing-4);
   }
 
   .page-header p {

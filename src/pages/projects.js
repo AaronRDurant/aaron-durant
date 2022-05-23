@@ -14,6 +14,14 @@ const projectsList = [
     label: 'Hand making devil horns sign emoji'
   },
   {
+    name: 'Dashboard',
+    description: 'I wanted to add to my repertoire the skills necessary to create a corporate-themed admin panel. The result: a dashboard, three pages sourcing dummy data, four mini apps, seven functional charts, and experience with Tailwind CSS, Syncfusion, and more.',
+    code: 'dashboard',
+    demo: 'https://dashboard-ad.netlify.app/',
+    emoji: '📊',
+    label: 'Bar chart emoji'
+  },
+  {
     name: 'ARMA Sport Concept',
     description: 'In putting my spin on the website of nutritional supplement brand ARMA Sport, I fortified my knowledge of React and CSS, including Flexbox, Grid, the BEM methodology, media queries, and more.',
     code: 'arma-concept',
@@ -28,14 +36,6 @@ const projectsList = [
     demo: 'https://pipedreammoto.com',
     emoji: '🏁',
     label: 'Checkered flag emoji'
-  },
-  {
-    name: 'Responsive Portfolio',
-    description: 'A modern portfolio website using HTML, CSS and JavaScript. Here, I demonstrate a few basic skills and display what I worked on when I was first learning to code via CareerFoundry.',
-    code: 'simple-portfolio',
-    demo: 'https://simple-portfolio-ad.netlify.app',
-    emoji: '👨🏻‍💻',
-    label: 'Man using laptop emoji'
   }
 ]
 
