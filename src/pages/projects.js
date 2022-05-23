@@ -22,20 +22,20 @@ const projectsList = [
     label: 'Bar chart emoji'
   },
   {
+    name: 'Tech Commerce',
+    description: 'After acquiring lots of Gatsby experience, I switched to Next.js to create this simple e-commerce website. Beyond "the React framework for production," I was pleased to also use Sanity for content and Stripe for payments.',
+    code: 'tech-commerce',
+    demo: 'https://tech-commerce-ad.netlify.app',
+    emoji: '🛒',
+    label: 'Shopping cart emoji'
+  },
+  {
     name: 'ARMA Sport Concept',
     description: 'In putting my spin on the website of nutritional supplement brand ARMA Sport, I fortified my knowledge of React and CSS, including Flexbox, Grid, the BEM methodology, media queries, and more.',
     code: 'arma-concept',
-    demo: 'https://arma-concept.netlify.app',
+    demo: 'https://arma-concept-ad.netlify.app',
     emoji: '💪🏻',
     label: 'Flexed bicep emoji'
-  },
-  {
-    name: 'Pipe Dream Blog',
-    description: 'Given my background in writing about racing, ceaseless thoughts about writing about motocross, and my deep interest in static websites paired with a headless CMS, it was only a matter of time before Pipe Dream hit a server near you.',
-    code: 'pipe-dream',
-    demo: 'https://pipedreammoto.com',
-    emoji: '🏁',
-    label: 'Checkered flag emoji'
   }
 ]
 
