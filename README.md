@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://ad-personal-website.netlify.app">
+  <a href="https://aarondurant.com/">
     <img alt="Aaron Durant" src="src/images/AD-icon.png" width="60" />
   </a>
 </p>
