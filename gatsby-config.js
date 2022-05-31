@@ -6,7 +6,7 @@ module.exports = {
       summary: `, a front-end developer in Michigan intrigued by the intersection of web design and content.`,
     },
     description: `Aaron Durant's personal website, built with Gatsby.`,
-    siteUrl: `https://ad-personal-website.netlify.app/`,
+    siteUrl: `https://aarondurant.com`,
     social: {
       twitter: `AaronRDurant`,
     },

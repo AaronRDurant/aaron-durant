@@ -4,7 +4,9 @@ date: "2022-05-19"
 description: Introducing my blazing-fast, modern personal website!
 ---
 
-I made my first website more than 10 years ago (basically half my life). I began writing on the internet eight years ago. Six and a half years ago, I helped create a website called [The Apex](https://www.theapex.racing/). That project led to intense skill development and put me closer to open-wheel and sports car racing than I could've dreamt of when I first witnessed it in 2007.
+I made my first website more than 10 years ago (basically half my life). I began writing on the internet eight years ago.
+
+Six and a half years ago, I helped create a website called [The Apex](https://www.theapex.racing/). That project led to intense skill development and put me closer to open-wheel and sports car racing than I could've dreamt of when I first witnessed it in 2007.
 
 About 600 days ago, in September 2020, I started down the path of a career in web development when I dove into my project-based online bootcamp. By November 2021, I felt ready to take on my most exciting hand-coded website yet.
 
