@@ -546,10 +546,6 @@ a:hover {
   justify-content: space-between;
 }
 
-section img {
-  padding-bottom: var(--spacing-8);
-}
-
 /* Media queries */
 
 @media (max-width: 800px) {
