@@ -47,7 +47,7 @@ const Home = ({ data, location }) => {
             <StaticImage
               className="hero-photo"
               formats={["auto", "webp", "avif"]}
-              src="../images/Aaron-Durant-with-donut.jpg"
+              src="../images/aaron-durant-belle-isle-fountain.jpg"
               width={250}
               height={250}
               quality={100}
