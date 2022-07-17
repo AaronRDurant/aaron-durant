@@ -24,7 +24,7 @@ const Home = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title={siteTitle} />
+      <Seo title={"Hey, I'm " + siteTitle + "."} />
       <article>
         <header className="hero">
           <div className="flex-content">
@@ -37,17 +37,15 @@ const Home = ({ data, location }) => {
                 </span>
               </h1>
               <p>
-                I'm a front-end developer in Michigan intrigued by the
-                intersection of web design and content. This is my tiny spot on
-                the internet where I display{" "}
-                <Link to="/projects">projects</Link> I've made and things I{" "}
-                <Link to="/blog">write</Link>.
+                I'm a software developer in Michigan intrigued by the
+                intersection of web design and content. This is where I share
+                things I make and write.
               </p>
             </div>
             <StaticImage
               className="hero-photo"
               formats={["auto", "webp", "avif"]}
-              src="../images/aaron-durant-belle-isle-fountain.jpg"
+              src="../images/aaron-durant-chicago-pier.jpg"
               width={250}
               height={250}
               quality={100}

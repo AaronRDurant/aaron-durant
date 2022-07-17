@@ -17,7 +17,7 @@ const projectsList = [
   {
     name: "Dashboard",
     description:
-      "I wanted to add to my repertoire the skills necessary to create a corporate-themed admin panel. The result: a dashboard, three pages sourcing dummy data, four mini apps, seven functional charts, and experience with Tailwind CSS, Syncfusion, and more.",
+      "I wanted to add to my repertoire the skills necessary to create a corporate-themed admin panel. Creating this led to a dashboard, three pages sourcing dummy data, four mini apps, seven charts, and experience with Tailwind CSS, Syncfusion, and more.",
     code: "dashboard",
     demo: "https://dashboard-ad.netlify.app/",
     emoji: "📊",
@@ -26,7 +26,7 @@ const projectsList = [
   {
     name: "Tech Commerce",
     description:
-      'After acquiring lots of Gatsby experience, I switched to Next.js to create this simple e-commerce website. Beyond "the React framework for production," I was pleased to also use Sanity for content and Stripe for payments.',
+      'After acquiring lots of Gatsby experience, I switched to Next.js to create this simple e-commerce website. Beyond "the React framework for production," I was pleased to use Sanity for content and Stripe for payments.',
     code: "tech-commerce",
     demo: "https://tech-commerce-ad.netlify.app",
     emoji: "🛒",
@@ -35,7 +35,7 @@ const projectsList = [
   {
     name: "ARMA Sport Concept",
     description:
-      "In putting my spin on the website of nutritional supplement brand ARMA Sport, I fortified my knowledge of React and CSS, including Flexbox, Grid, the BEM methodology, media queries, and more.",
+      "In putting my spin on the current website for nutritional supplement brand ARMA Sport, I fortified my knowledge of React and CSS, including Flexbox, Grid, the BEM methodology, media queries, and more.",
     code: "arma-concept",
     demo: "https://arma-concept-ad.netlify.app",
     emoji: "💪🏻",

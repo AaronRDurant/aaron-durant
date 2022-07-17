@@ -3,7 +3,7 @@ module.exports = {
     title: `Aaron Durant`,
     author: {
       name: `Aaron Durant`,
-      summary: `, a front-end developer in Michigan intrigued by the intersection of web design and content.`,
+      summary: `, a software developer in Michigan intrigued by the intersection of web design and content.`,
     },
     description: `Aaron Durant's personal website, built with Gatsby.`,
     siteUrl: `https://aarondurant.com`,

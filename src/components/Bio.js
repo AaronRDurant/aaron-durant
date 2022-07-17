@@ -29,7 +29,7 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/aaron-durant-belle-isle.jpg"
+        src="../images/aaron-durant-chicago.jpg"
         width={100}
         height={100}
         quality={100}

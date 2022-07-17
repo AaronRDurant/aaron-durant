@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
@@ -14,24 +14,20 @@ const About = ({ data, location }) => {
         <header>
           <div className="page-header">
             <h1>About Me</h1>
-            <p>Web developer, avid stationary cyclist, and wannabe writer</p>
+            <p>Software developer, motocross fanatic, and floundering golfer</p>
           </div>
         </header>
 
         <section>
           <p>
-            Howdy! I'm Aaron Durant, an aspiring front-end web developer in
-            Michigan. This is my tiny spot on the internet where I share{" "}
-            <Link to="/projects">projects</Link> I've made and things I{" "}
-            <Link to="/blog">write</Link>.
+            Howdy! I'm Aaron Durant, a software developer in Michigan. This is
+            my spot on the internet for sharing things I make and write.
           </p>
           <p>
-            I come to the land of web development from the adjacent nation of
-            online publishing. In working on a motorsports journalism project
-            simply for the love of it for five years, I developed a deep
-            interest in the intersection of web design and content through
-            attending three dozen motorsports events and publishing more than
-            1,000 articles.
+            In working on a motorsports journalism project simply for the love
+            of it for five years, I developed a deep interest in the
+            intersection of web design and content through attending three dozen
+            motorsports events and publishing more than 1,000 articles.
           </p>
           <p>
             Realizing I preferred improving the design of{" "}
@@ -44,13 +40,13 @@ const About = ({ data, location }) => {
             </a>{" "}
             instead of writing for it, I knew I needed to make a change. So,
             after a year-long project-based online bootcamp and several months
-            of additional self-directed learning, I aim to start in my first
-            role as a front-end developer in 2022.
+            of additional self-directed learning, I started in my first role as
+            a software developer in July 2022.
           </p>
           <p>
-            I enjoy reading, biking, weight training, playing golf, playing
-            drums, snowboarding, and spending time with my girlfriend and
-            family. I also really love motocross.
+            I enjoy playing golf, drumming, biking, weight training,
+            snowboarding, and spending time with my girlfriend and family. I
+            also really love motocross.
           </p>
           <h2>Connect</h2>
           <p>
@@ -87,7 +83,7 @@ const About = ({ data, location }) => {
             </li>
             <li>
               <a
-                href="https://www.strava.com/athletes/70892495"
+                href="https://www.strava.com/athletes/ad80"
                 target="_blank"
                 rel="noreferrer"
               >
