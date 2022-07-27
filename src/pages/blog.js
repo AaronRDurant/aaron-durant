@@ -31,7 +31,6 @@ const Blog = ({ data, location }) => {
             <p>Musings on coding, motorsports, books, technology, and more.</p>
           </div>
         </header>
-
         <section>
           <ol style={{ listStyle: `none` }}>
             {posts.map((post) => {

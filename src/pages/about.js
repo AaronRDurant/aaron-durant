@@ -17,7 +17,6 @@ const About = ({ data, location }) => {
             <p>Software developer, motocross fanatic, and floundering golfer</p>
           </div>
         </header>
-
         <section>
           <p>
             Howdy! I'm Aaron Durant, a software developer in Michigan. This is

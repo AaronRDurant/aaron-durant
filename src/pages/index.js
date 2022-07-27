@@ -53,7 +53,6 @@ const Home = ({ data, location }) => {
             />
           </div>
         </header>
-
         <div>
           <h2 className="subheading">
             <span>Latest Writing</span> <Link to="/blog">View all →</Link>

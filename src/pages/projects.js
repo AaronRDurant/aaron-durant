@@ -62,7 +62,6 @@ const Projects = ({ data, location }) => {
             </p>
           </div>
         </header>
-
         <section>
           {projectsList.map((project) => (
             <div className="project" key={project.name}>
