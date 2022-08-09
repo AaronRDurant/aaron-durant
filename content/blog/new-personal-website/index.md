@@ -4,7 +4,7 @@ date: "2022-05-19"
 description: Introducing my blazing-fast, modern personal website!
 ---
 
-I made my first website more than 10 years ago (basically half my life). I began writing on the internet eight years ago.
+I made my first website more than 10 years ago (basically half my life). Not long after that, I began writing on the internet.
 
 Six and a half years ago, I helped create a website called [The Apex](https://www.theapex.racing/). That project led to intense skill development and put me closer to open-wheel and sports car racing than I could've dreamt of when I first witnessed it in 2007.
 
@@ -14,7 +14,7 @@ All of that — and so much more in between — leads to today, when I'm at long
 
 ![Aaron Durant's new Gatsby personal website](./Aaron-Durant-personal-website.jpg "Aaron Durant's personal website")
 
-Built with React using the framework Gatsby, this new version of aarondurant.com ends the line of WordPress-based personal websites I've maintained for the last several years. Furthermore, it lays the groundwork for future revisions as I further my skills and continue following my interests in web development.
+Built with React using [Gatsby](https://www.gatsbyjs.com), this new version of aarondurant.com ends the line of WordPress-based personal websites I've maintained for the last several years. Furthermore, it lays the groundwork for future revisions as I further my skills and continue following my interests in web development.
 
 ## Synthesizing My Experience
 

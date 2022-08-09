@@ -15,13 +15,22 @@ const projectsList = [
     label: "Hand making devil horns sign emoji",
   },
   {
-    name: "Dashboard",
+    name: "Travel Mate",
     description:
-      "I wanted to add to my repertoire the skills necessary to create a corporate-themed admin panel. Creating this led to a dashboard, three pages sourcing dummy data, four mini apps, seven charts, and experience with Tailwind CSS, Syncfusion, and more.",
-    code: "dashboard",
-    demo: "https://dashboard-ad.netlify.app/",
-    emoji: "📊",
-    label: "Bar chart emoji",
+      "Incorporating three APIs to display information about restaurants, hotels, and attractions and show them on a map, this React web app became one of my most well-rounded projects to date.",
+    code: "travel-mate",
+    demo: "https://travel-mate-ad.netlify.app/",
+    emoji: "✈️",
+    label: "Airplane emoji",
+  },
+  {
+    name: "brand.",
+    description:
+      "This modern business website was built with React and designed using styled-components. While it may seem like just another brochure-like website, it left me with more confidence that I could make things like this for actual production.",
+    code: "brand",
+    demo: "https://brand-ad.netlify.app/",
+    emoji: "📁",
+    label: "Folder emoji",
   },
   {
     name: "Tech Commerce",
@@ -32,6 +41,16 @@ const projectsList = [
     emoji: "🛒",
     label: "Shopping cart emoji",
   },
+  {
+    name: "Dashboard",
+    description:
+      "I wanted to add to my repertoire the skills necessary to create a corporate-themed admin panel. Creating this led to a dashboard, three pages sourcing dummy data, four mini apps, seven charts, and experience with Tailwind CSS, Syncfusion, and more.",
+    code: "dashboard",
+    demo: "https://dashboard-ad.netlify.app/",
+    emoji: "📊",
+    label: "Bar chart emoji",
+  },
+
   {
     name: "ARMA Sport Concept",
     description:
