@@ -11,7 +11,6 @@ const Blog = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <Seo title={"Blog • " + siteTitle} />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
@@ -67,6 +66,13 @@ const Blog = ({ data, location }) => {
 };
 
 export default Blog;
+
+export const Head = () => (
+  <Seo
+    title="Blog • Aaron Durant"
+    description="Musings on coding, motorsports, books, technology, and more."
+  />
+);
 
 export const pageQuery = graphql`
   query {

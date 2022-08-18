@@ -9,7 +9,6 @@ const About = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title={"About • " + siteTitle} />
       <article>
         <header>
           <div className="page-header">
@@ -97,6 +96,13 @@ const About = ({ data, location }) => {
 };
 
 export default About;
+
+export const Head = () => (
+  <Seo
+    title="About • Aaron Durant"
+    description="Software developer, motocross fanatic, and floundering golfer."
+  />
+);
 
 export const pageQuery = graphql`
   query {

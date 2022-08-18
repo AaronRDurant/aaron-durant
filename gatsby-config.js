@@ -1,14 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Aaron Durant`,
+    description: `Aaron Durant's personal website, built with Gatsby.`,
+    siteUrl: `https://aarondurant.com`,
+    twitter: `AaronRDurant`,
     author: {
       name: `Aaron Durant`,
       summary: `, a software developer in Michigan intrigued by the intersection of web design and content.`,
-    },
-    description: `Aaron Durant's personal website, built with Gatsby.`,
-    siteUrl: `https://aarondurant.com`,
-    social: {
-      twitter: `AaronRDurant`,
     },
   },
   plugins: [
@@ -124,7 +122,6 @@ module.exports = {
         icon: `src/images/AD-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
