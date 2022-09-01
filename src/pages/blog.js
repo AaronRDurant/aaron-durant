@@ -70,7 +70,7 @@ export default Blog;
 export const Head = () => (
   <Seo
     title="Blog • Aaron Durant"
-    description="Musings on coding, motorsports, books, technology, and more."
+    description="Low-frequency, high-quality text products."
   />
 );
 

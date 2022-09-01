@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Aaron Durant`,
-    description: `Aaron Durant's personal website, built with Gatsby.`,
+    description: `Aaron Durant's personal website.`,
     twitter: `AaronRDurant`,
     siteUrl: `https://aarondurant.com`,
-    image: `/aaron-durant-chicago-twitter-card.jpg`,
-
+    image: `/aaron-durant-chicago-card.jpg`,
     author: {
       name: `Aaron Durant`,
       summary: `, a software developer in Michigan intrigued by the intersection of web design and content.`,

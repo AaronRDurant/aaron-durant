@@ -8,10 +8,9 @@ I learned so much between getting started by cloning a Gatsby starter in late 20
 
 ## To Do ✅
 
-- Dark mode 🌃🌙
-- Unique descriptions for each page to improve SEO
+- Dark mode 🌃 🌙
 - A more striking layout for the lists of blog posts and projects
-- Social media buttons on the front page
+- Unique image meta tag for each blog post
 - Responsiveness improvements for some device sizes
 
 That's not to mention an ultra-minimalist design I'm beginning to develop for a version 2.0, which I'm planning to complete in time for my birthday in March 2023!

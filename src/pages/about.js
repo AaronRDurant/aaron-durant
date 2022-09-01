@@ -100,7 +100,7 @@ export default About;
 export const Head = () => (
   <Seo
     title="About • Aaron Durant"
-    description="Software developer, motocross fanatic, and floundering golfer."
+    description="Software developer, motocross fanatic, floundering golfer."
   />
 );
 

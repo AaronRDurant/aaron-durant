@@ -94,7 +94,7 @@ export default Home;
 export const Head = () => (
   <Seo
     title="Hey, I'm Aaron Durant."
-    description="This is Aaron. Welcome to my personal website."
+    description="Software developer and writer aiming to sleep 7.5 hours each night."
   />
 );
 

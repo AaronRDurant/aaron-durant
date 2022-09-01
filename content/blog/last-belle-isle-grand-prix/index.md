@@ -1,7 +1,7 @@
 ---
 title: One Last Grand Prix on Belle Isle
 date: "2022-06-02"
-description: My first visit to the Detroit Grand Prix on Belle Isle 15 years ago led to the development of essentially every professional skill I hold.
+description: World-class racing takes place one last time on Belle Isle in 2022.
 ---
 
 Today is a lot like Christmas Eve for me. Actually, it's like the last Christmas Eve I'm going to experience in the house I grew up in before a big move.

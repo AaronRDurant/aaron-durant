@@ -26,7 +26,7 @@ const projectsList = [
   {
     name: "brand.",
     description:
-      "This modern business website was built with React and designed using styled-components. While it may seem like just another brochure-like website, it left me with more confidence that I could make things like this for actual production.",
+      "I built this modern business website with React and styled-components. It may be just another brochure-like website, but this increased my confidence that I could make things like this for actual production.",
     code: "brand",
     demo: "https://brand-ad.netlify.app/",
     emoji: "📁",
