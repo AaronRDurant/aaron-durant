@@ -13,7 +13,7 @@ const About = ({ data, location }) => {
         <header>
           <div className="page-header">
             <h1>About Me</h1>
-            <p>Software developer, motocross fanatic, and floundering golfer</p>
+            <p>Software developer, motocross racer, and writer</p>
           </div>
         </header>
         <section>
@@ -43,8 +43,8 @@ const About = ({ data, location }) => {
           </p>
           <p>
             I enjoy playing golf, drumming, biking, weight training,
-            snowboarding, and spending time with my girlfriend and family. I
-            also really love motocross.
+            snowboarding, and spending time with my friends and family. I also
+            really love motocross.
           </p>
           <h2>Connect</h2>
           <p>
@@ -100,7 +100,7 @@ export default About;
 export const Head = () => (
   <Seo
     title="About • Aaron Durant"
-    description="Software developer, motocross fanatic, floundering golfer."
+    description="Software developer, motocross racer, and writer."
   />
 );
 
