@@ -1,12 +1,14 @@
 import * as React from "react";
+
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className="global-wrapper">
+    <div id="layout" className="layout">
       <Navigation />
       <main>{children}</main>
-      <footer className="footer-text">Made by Aaron Durant</footer>
+      <Footer />
     </div>
   );
 };

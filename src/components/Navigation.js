@@ -1,66 +1,62 @@
-import * as React from "react";
-import { Link, graphql, useStaticQuery } from "gatsby";
+import React from "react";
+import { Link } from "gatsby";
 
-const navItems = [
+import { slugify } from "../utilities/helpers";
+
+const pages = [
+  {
+    label: "Home",
+    url: "/",
+    mobileOnly: true,
+  },
   {
     label: "About",
     url: "/about",
-    emoji: "👨🏻‍💻",
-    description: "Man using computer emoji",
   },
   {
     label: "Projects",
     url: "/projects",
-    emoji: "💻",
-    description: "Laptop emoji",
   },
   {
-    label: "Blog",
-    url: "/blog",
-    emoji: "✏️",
-    description: "Pencil emoji",
+    label: "Writing",
+    url: "/writing",
   },
 ];
 
 const Navigation = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
-  const siteTitle = data.site.siteMetadata.title;
-
   return (
-    <header className="navigation">
-      <div className="navigation-inner">
-        <nav className="brand-section">
-          <Link to="/" className="brand">
-            <span>{siteTitle}</span>
+    <section className="navigation">
+      <div className="container">
+        <div className="nav-wrapper">
+          <Link to="/" className="item name">
+            <span
+              role="img"
+              aria-label="Hand making horns sign"
+              className="emoji"
+            >
+              🤘🏻
+            </span>
+            <span>Aaron Durant</span>
           </Link>
-        </nav>
-        <div>
           <nav>
-            {navItems.map((item) => (
-              <Link to={item.url} key={item.label} activeClassname="active">
-                <span
-                  role="img"
-                  aria-label={item.description}
-                  className="emoji"
+            {pages.map((page) => (
+              <div className="nav-item-outer" key={page.url}>
+                <Link
+                  to={page.url}
+                  key={page.url}
+                  activeClassName="active"
+                  className={`item ${slugify(page.label)} ${
+                    page.mobileOnly ? "mobile-only" : ""
+                  }`}
                 >
-                  {item.emoji}
-                </span>
-                <div>{item.label}</div>
-              </Link>
+                  <span>{page.label}</span>
+                </Link>
+              </div>
             ))}
           </nav>
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 

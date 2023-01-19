@@ -7,7 +7,7 @@ module.exports = {
     image: `/aaron-durant-chicago-card.jpg`,
     author: {
       name: `Aaron Durant`,
-      summary: `, a software developer in Michigan intrigued by the intersection of web design and content.`,
+      summary: `Aaron Durant is a software developer, motocross racer, and writer.`,
     },
   },
   plugins: [
@@ -15,8 +15,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/writing`,
+        name: `writing`,
       },
     },
     {

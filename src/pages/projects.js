@@ -1,118 +1,133 @@
-import * as React from "react";
-import { Link, graphql } from "gatsby";
+import React from "react";
+import { Link } from "gatsby";
 
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 
-const projectsList = [
-  {
-    name: "Personal Website",
-    description:
-      "Built with Gatsby and hosted on Netlify. This version of aarondurant.com marks a significant step forward from the personal websites I made on WordPress over the last several years but never really updated.",
-    code: "personal-website",
-    words: "new-personal-website",
-    emoji: "🤘🏻",
-    label: "Hand making devil horns sign emoji",
-  },
-  {
-    name: "Travel Mate",
-    description:
-      "Incorporating three APIs to display information about restaurants, hotels, and attractions and show them on a map, this React web app became one of my most well-rounded projects to date.",
-    code: "travel-mate",
-    demo: "https://travel-mate-ad.netlify.app/",
-    emoji: "✈️",
-    label: "Airplane emoji",
-  },
-  {
-    name: "brand.",
-    description:
-      "I built this modern business website with React and styled-components. It may be just another brochure-like website, but this increased my confidence that I could make things like this for actual production.",
-    code: "brand",
-    demo: "https://brand-ad.netlify.app/",
-    emoji: "📁",
-    label: "Folder emoji",
-  },
-  {
-    name: "Tech Commerce",
-    description:
-      'After acquiring lots of Gatsby experience, I switched to Next.js to create this simple e-commerce website. Beyond "the React framework for production," I was pleased to use Sanity for content and Stripe for payments.',
-    code: "tech-commerce",
-    demo: "https://tech-commerce-ad.netlify.app",
-    emoji: "🛒",
-    label: "Shopping cart emoji",
-  },
-  {
-    name: "Dashboard",
-    description:
-      "I wanted to add to my repertoire the skills necessary to create a corporate-themed admin panel. Creating this led to a dashboard, three pages sourcing dummy data, four mini apps, seven charts, and experience with Tailwind CSS, Syncfusion, and more.",
-    code: "dashboard",
-    demo: "https://dashboard-ad.netlify.app/",
-    emoji: "📊",
-    label: "Bar chart emoji",
-  },
-
-  {
-    name: "ARMA Sport Concept",
-    description:
-      "In putting my spin on the current website for nutritional supplement brand ARMA Sport, I fortified my knowledge of React and CSS, including Flexbox, Grid, the BEM methodology, media queries, and more.",
-    code: "arma-concept",
-    demo: "https://arma-concept-ad.netlify.app",
-    emoji: "💪🏻",
-    label: "Flexed bicep emoji",
-  },
-];
-
-const Projects = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`;
-
+const Projects = ({ data }) => {
   return (
-    <Layout location={location} title={siteTitle}>
-      <article>
-        <header>
-          <div className="page-header">
-            <h1>Projects</h1>
-            <p>
-              My favorite web development projects. Source code is on{" "}
-              <Link to="https://github.com/AaronRDurant" target="_blank">
-                GitHub
-              </Link>
-              .
-            </p>
-          </div>
-        </header>
-        <section>
-          {projectsList.map((project) => (
-            <div className="project" key={project.name}>
-              <div className="desktop-only">
-                <span role="img" aria-label={project.label} className="emoji">
-                  {project.emoji}
-                </span>
-              </div>
-              <div>
-                <h2 className="name">{project.name}</h2>
-                <p className="description">{project.description}</p>
-                <div className="buttons">
+    <Layout>
+      <div className="container">
+        <div className="grid">
+          <div className="article-content">
+            <div className="hero">
+              <h1>Projects</h1>
+            </div>
+            <section className="segment small">
+              <div className="post-content">
+                <p>
                   <a
-                    href={`https://github.com/AaronRDurant/${project.code}`}
+                    href="https://www.youtube.com/channel/UCD89j1lEDHzDZFXrOrrXhJw"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="motocross"
+                  >
+                    80HD
+                  </a>{" "}
+                  is my motocross vlog.
+                </p>
+                <p>
+                  <a
+                    href="https://www.motoonline.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="motoonline"
+                  >
+                    MotoOnline
+                  </a>{" "}
+                  is regarded as one of the most influential media outlets in
+                  the dirt bike industry, and I'm proud to write for it.
+                </p>
+                <p>
+                  <a
+                    href="https://travel-mate-ad.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Code
+                    Travel Mate
                   </a>
-                  {project.demo && (
-                    <a href={project.demo} target="_blank" rel="noreferrer">
-                      Demo
-                    </a>
-                  )}
-                  {project.words && (
-                    <Link to={`/${project.words}/`}>Words</Link>
-                  )}
-                </div>
+                  ,{" "}
+                  <a
+                    href="https://brand-ad.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    brand.
+                  </a>
+                  ,{" "}
+                  <a
+                    href="https://tech-commerce-ad.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Tech Commerce
+                  </a>
+                  ,{" "}
+                  <a
+                    href="https://dashboard-ad.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Dashboard
+                  </a>
+                  , and{" "}
+                  <a
+                    href="https://arma-concept-ad.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    ARMA Sport Concept
+                  </a>{" "}
+                  are a few websites I created while initially learning to code.
+                  The source code for those and more is on{" "}
+                  <a
+                    href="https://github.com/AaronRDurant"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="developer"
+                  >
+                    GitHub
+                  </a>
+                  . I have some ideas for side projects that are much more
+                  substantial — we'll see what 2023 brings on that front.
+                </p>
+                <p>
+                  I also sometimes <Link to="/writing">write</Link> on this
+                  website.
+                </p>
+
+                <h2 className="alternate-h2">Past Projects</h2>
+                <p>
+                  I created an independent online publication about motorsports
+                  called{" "}
+                  <a
+                    href="https://www.theapex.racing/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    The Apex
+                  </a>{" "}
+                  with my friend Ben Hinc in 2015. He's continued, but I stepped
+                  away to focus on web development in 2020.
+                </p>
+                <p>
+                  I made a sports dictionary in second grade, an animal magazine
+                  in third grade, a newspaper in fifth grade, a Twitter account
+                  and blog about IndyCar in eighth grade, and I started a band
+                  with my brother somewhere in there, too. Does any of that
+                  count?
+                </p>
+                <p>
+                  Perhaps not, but I'll admit I was one of those weird kids into
+                  doing lots of extracurricular stuff growing up. I'll bet on
+                  young people like that 10 times out of 10; I would be very
+                  different now if I wasn't a curious kid.
+                </p>
               </div>
-            </div>
-          ))}
-        </section>
-      </article>
+            </section>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 };
@@ -122,16 +137,6 @@ export default Projects;
 export const Head = () => (
   <Seo
     title="Projects • Aaron Durant"
-    description="My favorite web development projects."
+    description="I'm Aaron Durant and this is the stuff I'm working on."
   />
 );
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;

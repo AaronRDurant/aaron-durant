@@ -3,88 +3,97 @@ import { Link, graphql } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
+import Heading from "../components/Heading";
 import Seo from "../components/Seo";
 
 const Home = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`;
+  const weekdays = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  const d = new Date();
+  const day = weekdays[d.getDay()];
+
   const posts = data.allMarkdownRemark.nodes;
 
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    );
-  }
-
   return (
-    <Layout location={location} title={siteTitle}>
-      <article>
-        <header className="hero">
-          <div className="flex-content">
-            <div className="hero-content">
-              <h1>
-                Hey, I'm Aaron
-                <span role="img" aria-label="Hand waving emoji">
-                  {" "}
-                  👋🏻
-                </span>
-              </h1>
-              <p>
-                I'm a software developer in Michigan intrigued by the
-                intersection of web design and content. This is where I share
-                things I make and write.
-              </p>
-            </div>
+    <Layout>
+      <div className="container">
+        <div className="hero-wrapper">
+          <header className="hero index">
+            <h1>Hey, I'm Aaron!</h1>
+            <p className="hero-description small width">
+              I hope you're enjoying your <span>{day}</span>!
+            </p>
+            <p className="hero-description small width">
+              I'm working as a{" "}
+              <a
+                href="https://github.com/AaronRDurant"
+                target="_blank"
+                rel="noreferrer"
+                className="developer"
+              >
+                software developer
+              </a>
+              , preparing for{" "}
+              <a
+                href="https://www.youtube.com/channel/UCD89j1lEDHzDZFXrOrrXhJw"
+                target="_blank"
+                rel="noreferrer"
+                className="motocross"
+              >
+                motocross
+              </a>{" "}
+              season, and writing at{" "}
+              <a
+                href="https://www.motoonline.com"
+                target="_blank"
+                rel="noreferrer"
+                className="motoonline"
+              >
+                MotoOnline
+              </a>
+              . I'm eager to continue progressing with coding and motocross in
+              2023!
+            </p>
+          </header>
+          <div>
             <StaticImage
-              className="hero-photo"
+              src="../images/aaron-durant-motocross-baja-acres.jpg"
+              alt="Aaron Durant racing motocross"
+              title="Aaron Durant racing motocross"
+              className="image"
+              placeholder="blurred"
               formats={["auto", "webp", "avif"]}
-              src="../images/aaron-durant-chicago-pier.jpg"
-              width={250}
-              height={250}
               quality={100}
-              alt="Aaron Durant"
             />
           </div>
-        </header>
-        <div>
-          <h2 className="subheading">
-            <span>Latest Writing</span> <Link to="/blog">View all →</Link>
-          </h2>
-          <ol style={{ listStyle: `none` }}>
+        </div>
+      </div>
+
+      <div className="container">
+        <section className="segment first">
+          <Heading title="Latest Writing" slug="/writing" />
+
+          <div>
             {posts.map((post) => {
               const title = post.frontmatter.title || post.fields.slug;
 
               return (
-                <Link
-                  to={post.fields.slug}
-                  itemProp="url"
-                  className="post-link"
-                >
-                  <li className="post-list-items" key={post.fields.slug}>
-                    <article
-                      className="post-list-item"
-                      itemScope
-                      itemType="http://schema.org/Article"
-                    >
-                      <div className="latest">
-                        <h3 itemProp="headline">{title}</h3>
-                        <small>
-                          <time>{post.frontmatter.date}</time>
-                        </small>
-                      </div>
-                    </article>
-                  </li>
+                <Link to={post.fields.slug} className="post">
+                  <h3 key={post.fields.slug}>{title}</h3>
+                  <time>{post.frontmatter.date}</time>
                 </Link>
               );
             })}
-          </ol>
-        </div>
-      </article>
+          </div>
+        </section>
+      </div>
     </Layout>
   );
 };
@@ -93,29 +102,21 @@ export default Home;
 
 export const Head = () => (
   <Seo
-    title="Hey, I'm Aaron Durant."
-    description="Software developer and writer aiming to sleep 7.5 hours each night."
+    title="Aaron Durant"
+    description="Aaron Durant is a software developer, motocross racer, and writer."
   />
 );
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(
-      limit: 4
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
+    allMarkdownRemark(limit: 6, sort: { frontmatter: { date: DESC } }) {
       nodes {
         excerpt
         fields {
           slug
         }
         frontmatter {
-          date(formatString: "MMM D")
+          date(formatString: "MMMM YYYY")
           title
           description
         }

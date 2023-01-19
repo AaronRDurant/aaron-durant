@@ -5,21 +5,32 @@ import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 
 const NotFoundPage = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title;
-
   return (
-    <Layout location={location} title={siteTitle}>
-      <h1>
-        404: There's nothing here!
-        <span role="img" aria-label="Surprised emoji">
-          {" "}
-          😳
-        </span>
-      </h1>
-      <p>
-        Either something used to be here and I deleted it (a habit of mine), or
-        nothing ever was and you ended up here anyway. Impressive!
-      </p>
+    <Layout>
+      <div className="container">
+        <div className="grid">
+          <div className="article-content">
+            <div className="hero">
+              <h1>
+                404: There's nothing here!
+                <span role="img" aria-label="Surprised emoji">
+                  {" "}
+                  😳
+                </span>
+              </h1>
+            </div>
+            <section className="segment small">
+              <div className="post-content">
+                <p>
+                  Either something used to be here and I deleted it (a habit of
+                  mine...), or nothing ever was and you ended up here anyway.
+                  Impressive!
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 };
@@ -32,13 +43,3 @@ export const Head = () => (
     description="You found something that doesn't exist. Nice job!"
   />
 );
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
