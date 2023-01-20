@@ -2,18 +2,15 @@
 
 ![Aaron Durant's Gatsby personal website](src/images/personal-website-screenshot.png "Aaron Durant's personal website")
 
-This edition of my personal website ends a long line of WordPress sites I created but never really maintained. More important is that it lays the groundwork for future revisions as I further my skills and continue following my interests in web development.
+Completed in late January 2023, my website's current design marks the first revision to my little corner of the internet, which I initially launched in May 2022.
 
-I learned so much between getting started by cloning a Gatsby starter in late 2021 and deploying this website on Netlify in May 2022. Beyond consistently (theoretically 😳) publishing blog posts written in Markdown, there are a few other things I'm already aiming to add or improve...
+Eight months on, none of the technology behind the website has changed — it's still using the Gatsby framework, Markdown files continue to drive the blog via GraphQL, and it remains hosted on Netlify. I'm open to using a Gatsby alternative for the next redesign and always considering using a CMS for blog posts. We'll see.
+
+I intend to stick with the current look and triple down on writing blog posts. I prefer quality over quantity but aim to produce more written pieces than I have in recent years.
 
 ## To Do ✅
 
-- Dark mode 🌃 🌙
-- A more striking layout for the lists of blog posts and projects
-- Unique image meta tag for each blog post
-- Responsiveness improvements for some device sizes
-
-That's not to mention an ultra-minimalist design I'm beginning to develop for a version 2.0, which I'm planning to complete in time for my birthday in March 2023!
+Beyond adding dark mode, I'll leave the design alone until I feel ready to work on version 3.0. I anticipate going with an ultra-minimalist look in the future but am still determining how I want it to look.
 
 ## Author 👨🏻‍💻
 

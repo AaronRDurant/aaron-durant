@@ -6,13 +6,13 @@ description: World-class racing takes place one last time on Belle Isle in 2022.
 
 Today is a lot like Christmas Eve for me. Actually, no, it's more than that — it's like the last Christmas Eve I'm going to experience in the house I grew up in before a big move.
 
-Obviously, we're still half a year from Christmas, so what is this momentous occasion? World-class racing's on-and-off relationship with the Raceway at Belle Isle Park, which began in 1992, ends for good this weekend.
+Obviously, we're still half a year from Christmas, so this momentous occasion is something else entirely: World-class racing's on-and-off relationship with the Raceway at Belle Isle Park, which began in 1992, ends for good this weekend.
 
 The final Detroit Grand Prix on Belle Isle begins tomorrow before the event reappears at a new downtown street circuit a year from now. The day before this event always stirs a unique feeling, and I have much to reflect on this year.
 
 I experienced a sense of wonder on the last day of August 2007 — the first day of the returning Detroit Grand Prix and my first time seeing open-wheel and sports car racing. That feeling led to the development of essentially every professional skill I hold a decade and a half later.
 
-I was well aware of my desire to be as close to the action as possible, but I didn't know it would lead to...
+I was acutely aware of my desire to be as close to the action as possible, but I didn't know it would lead to...
 
 - Several all-nighters during high school writing and working on websites
 - Attending three dozen races across North America (and never losing the excitement of the Friday practice day from Detroit in 2007)
