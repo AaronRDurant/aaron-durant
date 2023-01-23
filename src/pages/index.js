@@ -7,17 +7,23 @@ import Heading from "../components/Heading";
 import Seo from "../components/Seo";
 
 const Home = ({ data, location }) => {
-  const weekdays = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
   ];
-  const d = new Date();
-  const day = weekdays[d.getDay()];
+
+  const date = new Date();
+  const month = months[date.getMonth()];
 
   const posts = data.allMarkdownRemark.nodes;
 
@@ -28,7 +34,7 @@ const Home = ({ data, location }) => {
           <header className="hero index">
             <h1>Hey, I'm Aaron!</h1>
             <p className="hero-description small width">
-              I hope you're enjoying your <span>{day}</span>!
+              I hope your <span>{month}</span> is going well!
             </p>
             <p className="hero-description small width">
               I'm working as a{" "}

@@ -6,7 +6,7 @@ description: Reflecting on 2022 and looking ahead to 2023.
 
 Better late than never, right?
 
-We're two and a half weeks into 2023, but, to my brain, this is the earliest I could've written this. Sailing aboard the Carnival Valor comprised a handful of the year's first days, and since then, I've been busy with work, working out, and having some fun times with friends.
+We're three weeks into 2023, but, to my brain, this is the earliest I could've written this. Sailing aboard the Carnival Valor comprised a handful of the year's first days, and since then, I've been busy with work, working out, and having some fun times with friends.
 
 One thing's for sure: Reflecting on what 2022 brought me leaves me much more positive than a year ago.
 
@@ -75,7 +75,7 @@ I asked myself for every one of those 831 days if I seriously wanted to do this.
 
 ![Aaron Durant riding motocross at Baja Acres](./Aaron-Durant-corner-Baja-Acres.jpg "Aaron Durant riding at Baja Acres")
 
-## I rode my dirt bike 3 times
+## I rode my dirt bike 3 days
 
 Picking up the bike in late September left little time for warm weather and, thus, riding days in Michigan. However, I want to track this over the years, so I'm starting now.
 
