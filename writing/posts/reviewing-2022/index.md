@@ -6,7 +6,7 @@ description: Reflecting on 2022 and looking ahead to 2023.
 
 Better late than never, right?
 
-We're three weeks into 2023, but, to my brain, this is the earliest I could've written this. Sailing aboard the Carnival Valor comprised a handful of the year's first days, and since then, I've been busy with work, working out, and having some fun times with friends.
+We're three weeks into 2023, but, to my mind, this is the earliest I could've written this. Sailing aboard the Carnival Valor comprised a handful of the year's first days, and since then, I've been busy with work, working out, and having some fun times with friends.
 
 One thing's for sure: Reflecting on what 2022 brought me leaves me much more positive than a year ago.
 
@@ -102,10 +102,11 @@ Here are a few key types, broken down:
 - **Yoga:** 12 // 3 hours and 46 minutes
 - **Snowboarding:** 5 days // 119 runs // 32.1 miles
 
-## I went to 10 concerts
+## I went to 11 concerts
 
-I had an incredible time at a couple of concerts in September 2021 and vowed to go to many more in 2022. I was successful.
+I've been fortunate to have attended so many hard-to-believe concerts over the last decade-plus, but I had an incredible time at a couple in particular in September 2021 and vowed to go to many more in 2022. I was successful.
 
+- **April 8 at Masonic Temple in Detroit, MI:** Jack White
 - **April 19 at Van Andel Arena in Grand Rapids, MI:** In Flames, Trivium, Lamb of God, and Megadeth
 - **June 30 at American Family Insurance Amphitheater in Milwaukee, WI:** Chevelle, Lamb of God, and Disturbed
 - **August 20 at The Fillmore in Detroit, MI:** Hatebreed, Black Label Society, and Anthrax
@@ -129,7 +130,7 @@ The stretch from January to March is the worst part of the year. It's bitter col
 
 I'm building a streak of journaling and reading daily, and I've been remarkably consistent at the gym. Execution of healthy habits is coming easy right now. I already feel the best I ever have; by March, June, September — December? I'll be on another level.
 
-I'm left to wonder for eight more weeks about the impact this will all have when I swing my leg over the dirt bike again in mid-March. I still have significant, scary things to conquer on the bike before I have any shot at reaching my goals. I'm unsatisfied until I cross a certain threshold that I think about multiple times a day.
+I'm left to wonder for eight more weeks about the impact this will all have when I swing my leg over the dirt bike again in mid-March. I still have significant things to conquer on the bike before I have any shot at reaching my goals. I'm unsatisfied until I cross a certain threshold that I think about all day, every day.
 
 I sense that this profound lack of fulfillment is a sign that I'll make it happen — I have to. The best part is: Nobody is telling me to push my brain and body this far, yet I do, and I will.
 

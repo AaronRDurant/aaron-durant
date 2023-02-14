@@ -32,8 +32,8 @@ const About = ({ date }) => {
                 </p>
 
                 <p>
-                  Since late 2020, coding and motocross have been my primary
-                  focuses. It all came together in the second half of 2022,
+                  Coding and motocross have been my primary focuses since late
+                  2020. It all came together in the second half of 2022,
                   beginning with the start of my development career in July. In
                   October, I lapped a motocross track for the{" "}
                   <a

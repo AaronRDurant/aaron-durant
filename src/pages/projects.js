@@ -36,7 +36,8 @@ const Projects = ({ data }) => {
                     MotoOnline
                   </a>{" "}
                   is regarded as one of the most influential media outlets in
-                  the dirt bike industry, and I'm proud to write for it.
+                  the dirt bike industry, and I'm proud to write for it and
+                  co-host the MotoNow podcast.
                 </p>
                 <p>
                   <a
