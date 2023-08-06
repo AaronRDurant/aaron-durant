@@ -24,7 +24,9 @@ const Projects = ({ data }) => {
                   >
                     80HD
                   </a>{" "}
-                  is my motocross vlog.
+                  is my motocross vlog aimed at capturing and tracking the
+                  progress of my primary endeavor outside my day job: racing my
+                  dirt bike.
                 </p>
                 <p>
                   <a
@@ -35,63 +37,11 @@ const Projects = ({ data }) => {
                   >
                     MotoOnline
                   </a>{" "}
-                  is regarded as one of the most influential media outlets in
-                  the dirt bike industry, and I'm proud to write for it and
-                  co-host the MotoNow podcast.
+                  is one of the most influential media outlets in the dirt bike
+                  industry, and I'm proud to write for it and co-host the
+                  MotoNow podcast.
                 </p>
-                <p>
-                  <a
-                    href="https://travel-mate-ad.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Travel Mate
-                  </a>
-                  ,{" "}
-                  <a
-                    href="https://brand-ad.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    brand.
-                  </a>
-                  ,{" "}
-                  <a
-                    href="https://tech-commerce-ad.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Tech Commerce
-                  </a>
-                  ,{" "}
-                  <a
-                    href="https://dashboard-ad.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Dashboard
-                  </a>
-                  , and{" "}
-                  <a
-                    href="https://arma-concept-ad.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    ARMA Sport Concept
-                  </a>{" "}
-                  are a few websites I created while initially learning to code.
-                  The source code for those and more is on{" "}
-                  <a
-                    href="https://github.com/AaronRDurant"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="developer"
-                  >
-                    GitHub
-                  </a>
-                  . I have some ideas for side projects that are much more
-                  substantial — we'll see what 2023 brings on that front.
-                </p>
+
                 <p>
                   I also sometimes <Link to="/writing">write</Link> on this
                   website.
@@ -108,21 +58,26 @@ const Projects = ({ data }) => {
                   >
                     The Apex
                   </a>{" "}
-                  with my friend Ben Hinc in 2015. He's continued, but I stepped
-                  away to focus on web development in 2020.
+                  with my friend Ben Hinc in 2015. I stepped away to focus on
+                  web development in 2020 and attempted to return in 2023, but
+                  my hands are full with coding and motocross.
                 </p>
                 <p>
                   I made a sports dictionary in second grade, an animal magazine
                   in third grade, a newspaper in fifth grade, a Twitter account
-                  and blog about IndyCar in eighth grade, and I started a band
-                  with my brother somewhere in there, too. Does any of that
-                  count?
+                  and blog about IndyCar in eighth grade, and I also started a
+                  band with my brother at some point. (Not to mention the Nitro
+                  Circus-esque front-yard action sports video series my brothers
+                  and I started; it never quite took off.)
                 </p>
+
+                <p>Does any of that count?</p>
+
                 <p>
-                  Perhaps not, but I'll admit I was one of those weird kids into
-                  doing lots of extracurricular stuff growing up. I'll bet on
+                  Perhaps not, but I'll admit I was one of <i>those</i> kids who
+                  did lots of extracurricular stuff growing up. I'll bet on
                   young people like that 10 times out of 10; I would be very
-                  different now if I wasn't a curious kid.
+                  different now if I weren't so curious as a kid.
                 </p>
               </div>
             </section>

@@ -9,6 +9,7 @@
   --font-color-bright: #1f1f1f;
   --link: #1877f2;
   --red: #ff0000;
+  --blue: #004a80;
   --Honda-red: #cc0000;
   --KTM-orange: #f2771a;
   --GitHub: #6e5494;
@@ -652,7 +653,7 @@ p.hero-description {
 }
 
 .developer {
-  color: var(--GitHub);
+  color: var(--blue);
 }
 
 .motocross {

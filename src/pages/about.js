@@ -1,4 +1,5 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
@@ -16,10 +17,9 @@ const About = ({ date }) => {
               <div className="post-content">
                 <p>
                   I'm a software developer, motocross racer, and writer in
-                  Michigan. I work on Minimum Advertised Price (MAP) monitoring
-                  software at my day job. Beyond that, I'm training for the 2023
-                  motocross season and writing about professional Supercross and
-                  motocross at{" "}
+                  Michigan. I work on minimum advertised price (MAP) monitoring
+                  software at my day job. Beyond that, I'm writing about
+                  professional Supercross and motocross at{" "}
                   <a
                     href="https://www.motoonline.com"
                     target="_blank"
@@ -27,43 +27,44 @@ const About = ({ date }) => {
                     className="motoonline"
                   >
                     MotoOnline
-                  </a>
-                  .
+                  </a>{" "}
+                  and making the most of my first full motocross season in 15
+                  years.
                 </p>
 
                 <p>
-                  Coding and motocross have been my primary focuses since late
-                  2020. It all came together in the second half of 2022,
-                  beginning with the start of my development career in July. In
+                  Coding and motocross have been my primary focuses since 2020.
+                  It all came together in the second half of 2022, beginning
+                  with the start of my software development career in July. In
                   October, I lapped a motocross track for the{" "}
                   <a
                     href="https://www.youtube.com/watch?v=vx0bHlUrSGw"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    first time in 13 years
+                    first time since 2008
                   </a>
                   .
                 </p>
 
                 <p>
-                  Now that the ball is rolling, 2023 is about determining where
-                  to take it all from here. I'm adhering to a rigorous weight
-                  and cardio training plan, intending to ride my dirt bike a ton
-                  this year, expanding my coding abilities, and sticking to many
-                  other healthy habits like reading to give myself the best shot
-                  at realizing my potential.
+                  With the ball finally rolling, 2023 is about building on this
+                  thrilling foundation. Especially with motocross, I've been
+                  careful to set goals for this year that seamlessly advance
+                  into more audacious targets for 2024 and beyond.
                 </p>
 
                 <p>
-                  I'm finally doing what I should be, and things are fantastic.
+                  Now in the second year of my professional career, I've only
+                  cracked the surface of coding. I'm excited to take the one-two
+                  combo of coding + motocross as far as possible.
                 </p>
 
                 <p>
                   Previously, I attended three dozen motorsports events across
                   North America with media accreditation between 2015 and 2020
-                  and published nearly 2,000 articles for a publication I
-                  co-founded called{" "}
+                  and published over 1,500 articles on a website I co-founded
+                  called{" "}
                   <a
                     href="https://www.theapex.racing/author/aaron-durant/"
                     target="_blank"
@@ -71,18 +72,27 @@ const About = ({ date }) => {
                   >
                     The Apex
                   </a>
-                  . However, my passion for the intersection of web design and
-                  content remains, and I have yet to totally find a way to
-                  channel it since. Writing here is likely a good start —
-                  perhaps 2023 is the year.
+                  . The intersection of website design and content is one of my
+                  central passions, and I plan to channel it more in the future
+                  as time allows and my career progresses.
                 </p>
 
                 <p>
                   I try to have most things flow toward coding and motocross,
-                  but I also enjoy snowboarding, playing golf, playing drums,
-                  attending heavy metal concerts, and spending time with family
-                  and friends.
+                  but I also enjoy playing golf, playing drums, snowboarding,
+                  attending heavy metal concerts, and laughing with family and
+                  friends.
                 </p>
+
+                <StaticImage
+                  src="../images/aaron-durant-2023-detroit-gp-indycar-race.jpg"
+                  alt="Aaron Durant at 2023 Detroit Grand Prix IndyCar race"
+                  title="Aaron Durant at 2023 Detroit Grand Prix"
+                  className="image"
+                  placeholder="blurred"
+                  formats={["auto", "webp", "avif"]}
+                  quality={100}
+                />
               </div>
             </section>
           </div>

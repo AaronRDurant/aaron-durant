@@ -4,25 +4,6 @@
   "description": "Aaron Durant's personal website.",
   "version": "2.0.0",
   "author": "Aaron Durant <aaron@aarondurant.com> (https://www.aarondurant.com/)",
-  "dependencies": {
-    "gatsby": "^5.4.0",
-    "gatsby-plugin-feed": "^5.4.0",
-    "gatsby-plugin-image": "^3.4.0",
-    "gatsby-plugin-manifest": "^5.4.0",
-    "gatsby-plugin-sharp": "^5.4.0",
-    "gatsby-remark-copy-linked-files": "^6.4.0",
-    "gatsby-remark-images": "^7.4.0",
-    "gatsby-remark-prismjs": "^7.4.0",
-    "gatsby-remark-responsive-iframe": "^6.4.0",
-    "gatsby-remark-smartypants": "^6.4.0",
-    "gatsby-source-filesystem": "^5.4.0",
-    "gatsby-transformer-remark": "^6.4.0",
-    "gatsby-transformer-sharp": "^5.4.0",
-    "prismjs": "^1.29.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -38,6 +19,25 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^2.8.2"
+    "prettier": "^3.0.1"
+  },
+  "dependencies": {
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-feed": "^5.11.0",
+    "gatsby-plugin-image": "^3.11.0",
+    "gatsby-plugin-manifest": "^5.11.0",
+    "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-remark-copy-linked-files": "^6.11.0",
+    "gatsby-remark-images": "^7.11.0",
+    "gatsby-remark-prismjs": "^7.11.0",
+    "gatsby-remark-responsive-iframe": "^6.11.1",
+    "gatsby-remark-smartypants": "^6.11.0",
+    "gatsby-source-filesystem": "^5.11.0",
+    "gatsby-transformer-remark": "^6.11.0",
+    "gatsby-transformer-sharp": "^5.11.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1"
   }
 }

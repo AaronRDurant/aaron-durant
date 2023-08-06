@@ -7,24 +7,6 @@ import Heading from "../components/Heading";
 import Seo from "../components/Seo";
 
 const Home = ({ data, location }) => {
-  const months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
-
-  const date = new Date();
-  const month = months[date.getMonth()];
-
   const posts = data.allMarkdownRemark.nodes;
 
   return (
@@ -34,7 +16,10 @@ const Home = ({ data, location }) => {
           <header className="hero index">
             <h1>Hey, I'm Aaron!</h1>
             <p className="hero-description small width">
-              I hope your <span>{month}</span> is going well!
+              Fancy seeing you here.{" "}
+              <span role="img" aria-label="Fist emoji" className="emoji">
+                👊🏻
+              </span>
             </p>
             <p className="hero-description small width">
               I'm working as a{" "}
@@ -46,16 +31,7 @@ const Home = ({ data, location }) => {
               >
                 software developer
               </a>
-              , preparing for{" "}
-              <a
-                href="https://www.youtube.com/channel/UCD89j1lEDHzDZFXrOrrXhJw"
-                target="_blank"
-                rel="noreferrer"
-                className="motocross"
-              >
-                motocross
-              </a>{" "}
-              season, and writing at{" "}
+              , writing at{" "}
               <a
                 href="https://www.motoonline.com"
                 target="_blank"
@@ -64,8 +40,16 @@ const Home = ({ data, location }) => {
               >
                 MotoOnline
               </a>
-              . I'm eager to continue progressing with coding and motocross in
-              2023!
+              , and preparing for the cornerstone of my first full{" "}
+              <a
+                href="https://www.youtube.com/channel/UCD89j1lEDHzDZFXrOrrXhJw"
+                target="_blank"
+                rel="noreferrer"
+                className="motocross"
+              >
+                motocross
+              </a>{" "}
+              season in 15 years: September's Baja Brawl.
             </p>
           </header>
           <div>

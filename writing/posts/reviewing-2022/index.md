@@ -6,13 +6,13 @@ description: Reflecting on 2022 and looking ahead to 2023.
 
 Better late than never, right?
 
-We're three weeks into 2023, but, to my mind, this is the earliest I could've written this. Sailing aboard the Carnival Valor comprised a handful of the year's first days, and since then, I've been busy with work, working out, and having some fun times with friends.
+We're three weeks into 2023, but, in my mind, this is the earliest I could've written this. Sailing aboard the Carnival Valor comprised a handful of the year's first days, and since then, I've been busy with work, working out, and having some fun times with friends.
 
 One thing's for sure: Reflecting on what 2022 brought me leaves me much more positive than a year ago.
 
-I felt a sharp sense of failure at the end of 2021. I was working consistently toward coding and motocross, but I still needed to land my first web development role, and I was far from bringing a dirt bike home. I despised that a whole year went by without reaching my primary goals. I was lost but determined as ever.
+I felt a sharp sense of failure at the end of 2021. I was working consistently toward coding and motocross, but I still needed to land my first web development role, and I was far from bringing a dirt bike home. I despised that a whole year went by without reaching my primary goals.
 
-Last year was a different story. The only events that could make a year more substantial than 2022 for me are achieving significant career advancement, accomplishing major motocross goals, getting married, having kids, or moving across the country — things of that sort. 2022 was a big deal.
+Last year was a different story. Thankfully, 2022 was a big deal.
 
 ![Preparing to ride at Martin MX Park](./Aaron-Durant-riding-Martin-MX-Park.jpg "Preparing to ride at Martin MX Park")
 
@@ -20,7 +20,7 @@ Last year was a different story. The only events that could make a year more sub
 
 Around the year's midpoint, I was grinding out a few web development projects based on hours-long YouTube tutorials. The goal was to have some keystone projects to display on my resume and website to get my first job. It worked.
 
-The purpose behind these websites was to learn and display my skills — not any practical use case. They're rather silly in that way. On the other hand, I have an idea or two for "real" projects I aim to work on this year.
+The purpose behind these websites was to learn and display my skills — not any practical use case. They're rather silly in that way.
 
 - [Travel Mate](https://travel-mate-ad.netlify.app/)
 - [brand.](https://brand-ad.netlify.app/)
@@ -87,7 +87,7 @@ I put 7.41 hours on the bike in 2022 during these three days:
 
 ## I did 217 workouts
 
-That's an average of 18 per month, with a maximum of 33 in December. I've been putting in the work lately and ended the year strong!
+That's an average of 18 per month, with a maximum of 33 in December.
 
 This figure includes everything tracked as a workout on my Apple Watch Series 7, from walking to running, indoor cycling to mountain biking, yoga to weight training, snowboarding to motocross, and many others.
 
@@ -132,6 +132,6 @@ I'm building a streak of journaling and reading daily, and I've been remarkably 
 
 I'm left to wonder for eight more weeks about the impact this will all have when I swing my leg over the dirt bike again in mid-March. I still have significant things to conquer on the bike before I have any shot at reaching my goals. I'm unsatisfied until I cross a certain threshold that I think about all day, every day.
 
-I sense that this profound lack of fulfillment is a sign that I'll make it happen — I have to. The best part is: Nobody is telling me to push my brain and body this far, yet I do, and I will.
+I sense that this profound lack of fulfillment is a sign that I'll make it happen — I have to. The best part: Nobody is telling me to push my brain and body this far, yet I do, and I will.
 
 It's going to be a great year.
