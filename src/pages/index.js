@@ -40,7 +40,7 @@ const Home = ({ data, location }) => {
               >
                 MotoOnline
               </a>
-              , and preparing for the cornerstone of my first full{" "}
+              , and wrapping up my first full{" "}
               <a
                 href="https://www.youtube.com/channel/UCD89j1lEDHzDZFXrOrrXhJw"
                 target="_blank"
@@ -49,7 +49,7 @@ const Home = ({ data, location }) => {
               >
                 motocross
               </a>{" "}
-              season in 15 years: September's Baja Brawl.
+              season in 15 years.
             </p>
           </header>
           <div>
