@@ -40,7 +40,7 @@ const Home = ({ data, location }) => {
               >
                 MotoOnline
               </a>
-              , and wrapping up my first full{" "}
+              , wrapping up my first full{" "}
               <a
                 href="https://www.youtube.com/channel/UCD89j1lEDHzDZFXrOrrXhJw"
                 target="_blank"
@@ -49,12 +49,19 @@ const Home = ({ data, location }) => {
               >
                 motocross
               </a>{" "}
-              season in 15 years.
+              season in 15 years, and looking ahead to snowboarding season.{" "}
+              <span
+                role="img"
+                aria-label="Snowboarding emoji"
+                className="emoji"
+              >
+                🏂
+              </span>
             </p>
           </header>
           <div>
             <StaticImage
-              src="../images/aaron-durant-motocross-baja-acres.jpg"
+              src="../images/aaron-durant-2023-baja-brawl.jpg"
               alt="Aaron Durant racing motocross"
               title="Aaron Durant racing motocross"
               className="image"

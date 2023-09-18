@@ -17,9 +17,9 @@ const About = ({ date }) => {
               <div className="post-content">
                 <p>
                   I'm a software developer, motocross racer, and writer in
-                  Michigan. I work on minimum advertised price (MAP) monitoring
-                  software at my day job. Beyond that, I'm writing about
-                  professional Supercross and motocross at{" "}
+                  Michigan. I work mostly on minimum advertised price (MAP)
+                  monitoring software at my day job. Beyond that, I'm writing
+                  about professional Supercross and motocross at{" "}
                   <a
                     href="https://www.motoonline.com"
                     target="_blank"
@@ -28,8 +28,8 @@ const About = ({ date }) => {
                   >
                     MotoOnline
                   </a>{" "}
-                  and making the most of my first full motocross season in 15
-                  years.
+                  and wrapping up my first full motocross season in 15 years
+                  (with an eye on 2024!).
                 </p>
 
                 <p>
@@ -55,8 +55,8 @@ const About = ({ date }) => {
                 </p>
 
                 <p>
-                  Now in the second year of my professional career, I've only
-                  cracked the surface of coding. I'm excited to take the one-two
+                  I've only cracked the surface of coding in the second year of
+                  my professional career and remain excited to take the one-two
                   combo of coding + motocross as far as possible.
                 </p>
 
