@@ -106,7 +106,7 @@ export const Head = () => (
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(limit: 6, sort: { frontmatter: { date: DESC } }) {
+    allMarkdownRemark(limit: 5, sort: { frontmatter: { date: DESC } }) {
       nodes {
         excerpt
         fields {

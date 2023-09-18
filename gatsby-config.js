@@ -4,7 +4,7 @@ module.exports = {
     description: `Aaron Durant's personal website.`,
     twitter: `AaronRDurant`,
     siteUrl: `https://aarondurant.com`,
-    image: `/aaron-durant-chicago-card.jpg`,
+    image: `/aaron-durant-2023-baja-acres-motocross-jump.jpg`,
     author: {
       name: `Aaron Durant`,
       summary: `Aaron Durant is a software developer, motocross racer, and writer.`,
