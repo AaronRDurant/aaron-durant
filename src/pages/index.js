@@ -31,16 +31,8 @@ const Home = ({ data, location }) => {
               >
                 software developer
               </a>
-              , writing at{" "}
-              <a
-                href="https://www.motoonline.com"
-                target="_blank"
-                rel="noreferrer"
-                className="motoonline"
-              >
-                MotoOnline
-              </a>
-              , wrapping up my first full{" "}
+              , gearing up for a fun snowboarding season, and hitting the gym to
+              prepare for the 2024{" "}
               <a
                 href="https://www.youtube.com/channel/UCD89j1lEDHzDZFXrOrrXhJw"
                 target="_blank"
@@ -49,14 +41,7 @@ const Home = ({ data, location }) => {
               >
                 motocross
               </a>{" "}
-              season in 15 years, and looking ahead to snowboarding season.{" "}
-              <span
-                role="img"
-                aria-label="Snowboarding emoji"
-                className="emoji"
-              >
-                🏂
-              </span>
+              season.
             </p>
           </header>
           <div>
