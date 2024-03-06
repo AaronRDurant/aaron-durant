@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, useStaticQuery, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 
-const Projects = ({ data }) => {
+const Projects = () => {
   return (
     <Layout>
       <div className="container">
@@ -90,9 +90,23 @@ const Projects = ({ data }) => {
 
 export default Projects;
 
-export const Head = () => (
-  <Seo
-    title="Projects • Aaron Durant"
-    description="I'm Aaron Durant and this is the stuff I'm working on."
-  />
-);
+export const Head = () => {
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          name
+        }
+      }
+    }
+  `);
+
+  const siteName = site.siteMetadata.name;
+
+  return (
+    <Seo
+      title={`Projects • ${siteName}`}
+      description="Some details about what I'm focused on."
+    />
+  );
+};

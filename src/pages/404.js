@@ -1,9 +1,10 @@
 import * as React from "react";
+import { graphql, useStaticQuery } from "gatsby";
 
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 
-const NotFoundPage = ({ data, location }) => {
+const NotFoundPage = ({ location }) => {
   return (
     <Layout>
       <div className="container">
@@ -36,9 +37,23 @@ const NotFoundPage = ({ data, location }) => {
 
 export default NotFoundPage;
 
-export const Head = () => (
-  <Seo
-    title="Whoa! Page Not Found • Aaron Durant"
-    description="You found something that doesn't exist. Nice job!"
-  />
-);
+export const Head = () => {
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          name
+        }
+      }
+    }
+  `);
+
+  const siteName = site.siteMetadata.name;
+
+  return (
+    <Seo
+      title={`Whoa! Page Not Found • ${siteName}`}
+      description="You found something that doesn't exist. Nice job!"
+    />
+  );
+};

@@ -32,7 +32,7 @@ const BlogPostTemplate = ({ data }) => {
 export default BlogPostTemplate;
 
 export const Head = ({ data }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`;
+  const siteTitle = data.site.siteMetadata?.name || `Title`;
   const post = data.markdownRemark;
 
   return (
@@ -51,7 +51,7 @@ export const pageQuery = graphql`
   ) {
     site {
       siteMetadata {
-        title
+        name
       }
     }
     markdownRemark(id: { eq: $id }) {

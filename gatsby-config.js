@@ -1,14 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Aaron Durant`,
-    description: `Aaron Durant's personal website.`,
-    twitter: `AaronRDurant`,
+    name: `Aaron Durant`,
+    description: `Software developer and motocross racer.`,
+    twitter: `aarondurant80`,
     siteUrl: `https://aarondurant.com`,
     image: `/Aaron-Durant-2023-Baja-Brawl-motocross.jpg`,
-    author: {
-      name: `Aaron Durant`,
-      summary: `Software developer, motocross racer, writer.`,
-    },
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -63,7 +59,7 @@ module.exports = {
           {
             site {
               siteMetadata {
-                title
+                name
                 description
                 siteUrl
                 site_url: siteUrl

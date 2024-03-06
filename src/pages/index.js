@@ -82,15 +82,15 @@ const Home = ({ data, location }) => {
 
 export default Home;
 
-export const Head = () => (
-  <Seo
-    title="Aaron Durant"
-    description="Aaron Durant is a software developer, motocross racer, and writer."
-  />
-);
+export const Head = ({ data }) => <Seo title={data.site.siteMetadata.name} />;
 
 export const pageQuery = graphql`
   query {
+    site {
+      siteMetadata {
+        name
+      }
+    }
     allMarkdownRemark(limit: 5, sort: { frontmatter: { date: DESC } }) {
       nodes {
         excerpt

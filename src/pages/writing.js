@@ -40,10 +40,10 @@ const Writing = ({ data, location }) => {
 
 export default Writing;
 
-export const Head = () => (
+export const Head = ({ data }) => (
   <Seo
-    title="Writing • Aaron Durant"
-    description="Low-frequency, high-quality text products."
+    title={`Writing • ${data.site.siteMetadata.name}`}
+    description="Occasional reflections on coding, motocross, and more."
   />
 );
 
@@ -51,8 +51,7 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        title
-        description
+        name
       }
     }
     allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {

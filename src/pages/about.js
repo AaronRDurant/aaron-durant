@@ -1,10 +1,11 @@
 import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 
-const About = ({ date }) => {
+const About = () => {
   return (
     <Layout>
       <div className="container">
@@ -104,9 +105,18 @@ const About = ({ date }) => {
 
 export default About;
 
-export const Head = () => (
-  <Seo
-    title="About • Aaron Durant"
-    description="Software developer, motocross racer, and writer."
-  />
-);
+export const Head = () => {
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          name
+        }
+      }
+    }
+  `);
+
+  const siteName = site.siteMetadata.name;
+
+  return <Seo title={`About • ${siteName}`} />;
+};
