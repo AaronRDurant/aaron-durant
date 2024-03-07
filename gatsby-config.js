@@ -4,7 +4,7 @@ module.exports = {
     description: `Software developer and motocross racer.`,
     twitter: `aarondurant80`,
     siteUrl: `https://aarondurant.com`,
-    image: `/Aaron-Durant-2023-Baja-Brawl-motocross.jpg`,
+    image: `/Aaron-Durant-2024-FTA-motocross-gear.jpg`,
   },
   plugins: [
     `gatsby-plugin-image`,

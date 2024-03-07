@@ -17,42 +17,26 @@ const About = () => {
             <section className="segment small">
               <div className="post-content">
                 <p>
-                  I'm a software developer, motocross racer, and writer in
-                  Michigan. I work mostly on minimum advertised price (MAP)
-                  monitoring software at my day job. Beyond that, I'm writing
-                  about professional Supercross and motocross at{" "}
+                  I'm a software developer and motocross racer in Michigan. I
+                  work mostly on minimum advertised price (MAP) monitoring
+                  software at my day job. Beyond that, I'm diving into the 2024
+                  motocross season striving for{" "}
                   <a
-                    href="https://www.motoonline.com"
+                    href="https://www.youtube.com/watch?v=bX5NcJnT1H8"
                     target="_blank"
                     rel="noreferrer"
-                    className="motoonline"
                   >
-                    MotoOnline
-                  </a>{" "}
-                  and wrapping up my first full motocross season in 15 years
-                  (with an eye on 2024!).
+                    redemption during Labor Day weekend's Baja Brawl
+                  </a>
+                  .
                 </p>
 
                 <p>
                   Coding and motocross have been my primary focuses since 2020.
                   It all came together in the second half of 2022, beginning
                   with the start of my software development career in July. In
-                  October, I lapped a motocross track for the{" "}
-                  <a
-                    href="https://www.youtube.com/watch?v=vx0bHlUrSGw"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    first time since 2008
-                  </a>
-                  .
-                </p>
-
-                <p>
-                  With the ball finally rolling, 2023 is about building on this
-                  thrilling foundation. Especially with motocross, I've been
-                  careful to set goals for this year that seamlessly advance
-                  into more audacious targets for 2024 and beyond.
+                  October, I lapped a motocross track for the first time since
+                  2008.
                 </p>
 
                 <p>
@@ -63,7 +47,7 @@ const About = () => {
 
                 <p>
                   Previously, I attended three dozen motorsports events across
-                  North America with media accreditation between 2015 and 2020
+                  North America between 2015 and 2020 with media accreditation
                   and published over 1,500 articles on a website I co-founded
                   called{" "}
                   <a
@@ -73,16 +57,15 @@ const About = () => {
                   >
                     The Apex
                   </a>
-                  . The intersection of website design and content is one of my
-                  central passions, and I plan to channel it more in the future
-                  as time allows and my career progresses.
+                  . The intersection of website design and content is a central
+                  interest of mine and I plan to channel it more in the future.
                 </p>
 
                 <p>
                   I try to have most things flow toward coding and motocross,
-                  but I also enjoy playing golf, playing drums, snowboarding,
-                  attending heavy metal concerts, and laughing with family and
-                  friends.
+                  but I also enjoy playing drums, playing golf, snowboarding,
+                  taking in heavy metal concerts from the front row, and
+                  laughing with my family, girlfriend, and friends.
                 </p>
 
                 <StaticImage

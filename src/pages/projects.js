@@ -24,33 +24,27 @@ const Projects = () => {
                   >
                     80HD
                   </a>{" "}
-                  is my motocross vlog aimed at capturing and tracking the
-                  progress of my primary endeavor outside my day job: racing my
-                  dirt bike.
-                </p>
-                <p>
-                  <a
-                    href="https://www.motoonline.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="motoonline"
-                  >
-                    MotoOnline
-                  </a>{" "}
-                  is one of the most influential media outlets in the dirt bike
-                  industry, and I'm proud to write for it and co-host the
-                  MotoNow podcast.
+                  is my thus-far inconsistent motocross vlog aimed at capturing
+                  and tracking the progress of my primary endeavor outside my
+                  day job: racing my dirt bike.
                 </p>
 
                 <p>
-                  I also sometimes <Link to="/writing">write</Link> on this
-                  website.
+                  I have an app idea I'm beginning to tinker with, but I'm
+                  primarily focused on advancing my life, furthering my software
+                  development career, and improving my fitness and technique to
+                  reach my motocross potential.
+                </p>
+
+                <p>
+                  It's all a work in progress, and I intend to{" "}
+                  <Link to="/writing">write</Link> on this website roughly once
+                  a month as it unfolds.
                 </p>
 
                 <h2 className="alternate-h2">Past Projects</h2>
                 <p>
-                  I created an independent online publication about motorsports
-                  called{" "}
+                  I created a publication about motorsports called{" "}
                   <a
                     href="https://www.theapex.racing/"
                     target="_blank"
@@ -58,26 +52,34 @@ const Projects = () => {
                   >
                     The Apex
                   </a>{" "}
-                  with my friend Ben Hinc in 2015. I stepped away to focus on
-                  web development in 2020 and attempted to return in 2023, but
-                  my hands are full with coding and motocross.
+                  with my friend Ben Hinc in 2015 but stepped away to focus on
+                  web development in 2020. An{" "}
+                  <a
+                    href="https://www.theapex.racing/2023/04/the-apex-back-refined-approach/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    attempted return in 2023 was exciting
+                  </a>
+                  , but I quickly faced the difficult truth that my hands were
+                  full with coding and motocross.
                 </p>
                 <p>
                   I made a sports dictionary in second grade, an animal magazine
-                  in third grade, a newspaper in fifth grade, a Twitter account
-                  and blog about IndyCar in eighth grade, and I also started a
-                  band with my brother at some point. (Not to mention the Nitro
-                  Circus-esque front-yard action sports video series my brothers
-                  and I started; it never quite took off.)
+                  in third grade, a newspaper in fifth grade, and a Twitter
+                  account and blog about IndyCar in eighth grade. I also started
+                  a band with my brother at some point. (Not to mention the
+                  Nitro Circus-esque front-yard action sports video series my
+                  brothers and I started; it never quite took off.)
                 </p>
 
                 <p>Does any of that count?</p>
 
                 <p>
                   Perhaps not, but I'll admit I was one of <i>those</i> kids who
-                  did lots of extracurricular stuff growing up. I'll bet on
-                  young people like that 10 times out of 10; I would be very
-                  different now if I weren't so curious as a kid.
+                  did lots of extracurricular stuff growing up. I'd bet on young
+                  people like that 10 times out of 10; I would be very different
+                  now if I weren't so curious as a kid.
                 </p>
               </div>
             </section>

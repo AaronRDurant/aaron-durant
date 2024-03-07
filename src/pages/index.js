@@ -31,8 +31,7 @@ const Home = ({ data, location }) => {
               >
                 software developer
               </a>
-              , gearing up for a fun snowboarding season, and hitting the gym to
-              prepare for the 2024{" "}
+              , making fast progress during my second full{" "}
               <a
                 href="https://www.youtube.com/channel/UCD89j1lEDHzDZFXrOrrXhJw"
                 target="_blank"
@@ -41,13 +40,16 @@ const Home = ({ data, location }) => {
               >
                 motocross
               </a>{" "}
-              season.
+              season in 16 years, and prioritizing reading more books.{" "}
+              <span role="img" aria-label="Books emoji" className="emoji">
+                📚
+              </span>
             </p>
           </header>
           <div>
             <StaticImage
-              src="../images/aaron-durant-2023-baja-brawl.jpg"
-              alt="Aaron Durant racing motocross"
+              src="../images/Aaron-Durant-March-2024-Baja-Acres-motocross.jpg"
+              alt="Aaron Durant racing motocross in FTA gear at Baja Acres"
               title="Aaron Durant racing motocross"
               className="image"
               placeholder="blurred"
