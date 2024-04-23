@@ -22,16 +22,7 @@ const Home = ({ data, location }) => {
               </span>
             </p>
             <p className="hero-description small width">
-              I'm working as a{" "}
-              <a
-                href="https://github.com/AaronRDurant"
-                target="_blank"
-                rel="noreferrer"
-                className="developer"
-              >
-                software developer
-              </a>
-              , making fast progress during my second full{" "}
+              I'm diving into my second full{" "}
               <a
                 href="https://www.youtube.com/channel/UCD89j1lEDHzDZFXrOrrXhJw"
                 target="_blank"
@@ -40,10 +31,8 @@ const Home = ({ data, location }) => {
               >
                 motocross
               </a>{" "}
-              season in 16 years, and prioritizing reading more books.{" "}
-              <span role="img" aria-label="Books emoji" className="emoji">
-                📚
-              </span>
+              season in 16 years, optimizing my environment, and seeking a new
+              opportunity to contribute in software development.
             </p>
           </header>
           <div>

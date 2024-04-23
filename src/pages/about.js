@@ -17,18 +17,17 @@ const About = () => {
             <section className="segment small">
               <div className="post-content">
                 <p>
-                  I'm a software developer and motocross racer in Michigan. I
-                  work mostly on minimum advertised price (MAP) monitoring
-                  software at my day job. Beyond that, I'm diving into the 2024
-                  motocross season striving for{" "}
+                  I'm a software developer and motocross racer in Michigan.
+                  Currently, I'm diving into the 2024 motocross season striving
+                  for{" "}
                   <a
                     href="https://www.youtube.com/watch?v=bX5NcJnT1H8"
                     target="_blank"
                     rel="noreferrer"
                   >
                     redemption during Labor Day weekend's Baja Brawl
-                  </a>
-                  .
+                  </a>{" "}
+                  and seeking a new software development role.
                 </p>
 
                 <p>
