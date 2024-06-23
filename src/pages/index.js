@@ -37,9 +37,9 @@ const Home = ({ data, location }) => {
           </header>
           <div>
             <StaticImage
-              src="../images/Aaron-Durant-March-2024-Baja-Acres-motocross.jpg"
-              alt="Aaron Durant racing motocross in FTA gear at Baja Acres"
-              title="Aaron Durant racing motocross"
+              src="../images/Aaron-Durant-2024-motocross-jump.jpg"
+              alt="Aaron Durant on his motocross race bike"
+              title="Aaron Durant on his motocross race bike"
               className="image"
               placeholder="blurred"
               formats={["auto", "webp", "avif"]}

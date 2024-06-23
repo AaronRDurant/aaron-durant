@@ -68,9 +68,9 @@ const About = () => {
                 </p>
 
                 <StaticImage
-                  src="../images/aaron-durant-2023-detroit-gp-indycar-race.jpg"
-                  alt="Aaron Durant at 2023 Detroit Grand Prix IndyCar race"
-                  title="Aaron Durant at 2023 Detroit Grand Prix"
+                  src="../images/Aaron-Durant-2024-motocross-practice.jpg"
+                  alt="Aaron Durant practicing during the 2024 motocross season"
+                  title="Aaron Durant practicing motocross on his 2023 Honda CRF250R"
                   className="image"
                   placeholder="blurred"
                   formats={["auto", "webp", "avif"]}
