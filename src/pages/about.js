@@ -53,7 +53,7 @@ const About = () => {
                 </p>
 
                 <StaticImage
-                  src="../images/Aaron-Durant-2024-motocross-practice.jpg"
+                  src="../images/Aaron-Durant-motocross-Supercoop-MX.jpg"
                   alt="Aaron Durant practicing during the 2024 motocross season"
                   title="Aaron Durant practicing motocross on his 2023 Honda CRF250R"
                   className="image"
