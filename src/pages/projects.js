@@ -24,13 +24,14 @@ const Projects = () => {
                   >
                     80HD
                   </a>{" "}
-                  is my thus-far inconsistent motocross vlog aimed at capturing
-                  and tracking the progress of my primary endeavor outside my
-                  day job: racing my dirt bike.
+                  is my motocross YouTube channel, where I document the journey
+                  of growing as an amateur racer. Through racing highlights and
+                  lessons learned, it offers an honest look at the challenges
+                  and triumphs of pursuing my passion for motocross.
                 </p>
 
                 <p>
-                  I recently set up a Substack called{" "}
+                  I recently created{" "}
                   <a
                     href="https://www.tableovertwo.com"
                     target="_blank"
@@ -38,21 +39,20 @@ const Projects = () => {
                   >
                     Table Over Two
                   </a>
-                  , where I aim to dive deeper into what truly influences
-                  Supercross and motocross results, both on and off the track.
+                  , a publication where I dive into the factors that truly
+                  influence Supercross and motocross results, along with other
+                  related topics from my perspective.
                 </p>
 
                 <p>
-                  I have an app idea I'm very slowly beginning to tinker with,
-                  but I'm primarily focused on setting up my townhome,
-                  furthering my career, and improving my fitness and skill to
-                  reach my motocross potential.
+                  Right now, I'm focused on securing a new software development
+                  or writing role, setting up my townhome, and improving my
+                  fitness and skills to reach my motocross potential.
                 </p>
 
                 <p>
-                  It's all a work in progress. I intend to{" "}
-                  <Link to="/writing">write</Link> on this website roughly once
-                  a month as it unfolds.
+                  I plan to <Link to="/writing">write</Link> on this website
+                  about once a month as everything unfolds.
                 </p>
 
                 <h2 className="alternate-h2">Past Projects</h2>

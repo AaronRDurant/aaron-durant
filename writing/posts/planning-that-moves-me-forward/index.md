@@ -1,14 +1,14 @@
 ---
 title: Planning That Moves Me Forward
 date: "2024-11-26"
-description: How I’m building a planning system that supports flexibility and progress, rather than perfection.
+description: How I'm building a planning system that supports flexibility and progress, rather than perfection.
 ---
 
 Have you ever felt like you're spinning your wheels, trying everything but going nowhere? That's where I've been — until now. Hopefully.
 
 I'd set goals, make plans, and start strong — only to lose momentum when life inevitably got in the way. Over time, I'd abandon my plans, frustrated by my inability to follow through. The cycle repeated, and I became increasingly unsure whether my goals were even possible.
 
-Recently, I've spent a lot of time trying to understand what's held me back. My struggles often come down to two things: **fear** and an **inflexible approach to planning**. Fear of failure, climbing the wrong ladder, or discovering that even my best effort might not be enough. Pair that with rigid plans that fall apart as soon as life throws a curveball — or even a totally hittable fastball right down the middle — and it’s no wonder I’ve struggled to find consistent progress.
+Recently, I've spent a lot of time trying to understand what's held me back. My struggles often come down to two things: **fear** and an **inflexible approach to planning**. Fear of failure, climbing the wrong ladder, or discovering that even my best effort might not be enough. Pair that with rigid plans that fall apart as soon as life throws a curveball — or even a totally hittable fastball right down the middle — and it's no wonder I've struggled to find consistent progress.
 
 But today, I'm deploying a new strategy. These ideas feel like the missing piece of my puzzle, and starting now, I'm ready to put them into action. Here's how I'm reframing my approach to fear, focus, and progress.
 
