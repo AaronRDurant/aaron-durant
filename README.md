@@ -1,15 +1,24 @@
-# aarondurant.com 🤘🏻
+# 👋🏻 Hey, I'm Aaron.
 
-![Aaron Durant's Gatsby personal website](src/images/personal-website-screenshot.png "Aaron Durant's personal website")
+🏗️ **Building, writing, and optimizing things.**
+🛠️ **Crafting intuitive web experiences through UX strategy, clear communication, and thoughtful problem-solving.**
 
-Completed in late January 2023, this website's current design marked the first major revision to my Gatsby-powered little corner of the internet, which I initially launched in May 2022.
+## 🚀 What I'm Working On
 
-Eight months on, none of the technology behind the website changed — it's still using the Gatsby framework, Markdown files continue to drive the blog via GraphQL, and it remains hosted on Netlify. For now, I intend to stick with the current look and put time toward writing more blog posts.
+- **Clarkston Glass** → Designing and developing a clean, intuitive website for a local business.
+- **Table Over Two** → Exploring motocross mindset, strategy, and performance.
+- **Rebuilding my personal site** → Migrating to Next.js for a more streamlined experience.
+- **Freelance web projects** → Helping businesses improve their online presence.
 
-## To Do ✅
+## 🔍 What Drives Me
 
-Beyond potentially adding dark mode, I'll leave the design alone until I feel ready to work on version 3.0. I'm kicking around the idea of devising an ultra-minimalist look to deploy for 2024 — we'll see!
+- **Great user experiences** → Clear, thoughtful design makes everything better.
+- **Creative problem-solving** → Whether in code, writing, or racing, details matter.
+- **Racing & competition** → Pushing limits, refining strategy, and constant improvement.
 
-## Author 👨🏻‍💻
+## 🌎 Where to Find Me
 
-- Aaron Durant // [aarondurant.com](https://aarondurant.com)
+- **Website:** [aarondurant.com](https://aarondurant.com/)
+- **X:** [@aarondurant80](https://x.com/aarondurant80)
+- **YouTube:** [@aarondurant80](https://www.youtube.com/@aarondurant80)
+- **Strava:** [Aaron Durant](https://www.strava.com/athletes/70892495)
