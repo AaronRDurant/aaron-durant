@@ -24,14 +24,14 @@ const Projects = () => {
                   >
                     80HD
                   </a>{" "}
-                  is my motocross YouTube channel, where I document the journey
-                  of growing as an amateur racer. Through racing highlights and
-                  lessons learned, it offers an honest look at the challenges
-                  and triumphs of pursuing my passion for motocross.
+                  is my motocross YouTube channel, where I capture the
+                  experience of growing as an amateur racer. It's not just about
+                  results — it's about the mindset, challenges, and progress
+                  that come with pushing my limits in motocross.
                 </p>
 
                 <p>
-                  I recently created{" "}
+                  I created{" "}
                   <a
                     href="https://www.tableovertwo.com"
                     target="_blank"
@@ -39,60 +39,57 @@ const Projects = () => {
                   >
                     Table Over Two
                   </a>
-                  , a publication where I dive into the factors that truly
-                  influence Supercross and motocross results, along with other
-                  related topics from my perspective.
+                  , a motocross publication that explores the deeper layers of
+                  Supercross and motocross. More than a race recap site, it's a
+                  space for analysis, insight, and storytelling that goes beyond
+                  the results sheet. Every article unpacks pivotal moments, the
+                  mental and technical aspects of performance, and the broader
+                  dynamics of the sport.
                 </p>
 
                 <p>
-                  Right now, I'm focused on securing a new software development
-                  or writing role, setting up my townhome, and improving my
-                  fitness and skills to reach my motocross potential.
-                </p>
-
-                <p>
-                  I plan to <Link to="/writing">write</Link> on this website
-                  about once a month as everything unfolds.
+                  Right now, beyond these projects, I'm in a major rebuilding
+                  phase. I'm aggressively job searching, seriously considering
+                  freelance website development, and focused on regaining
+                  financial stability after a tough stretch.
                 </p>
 
                 <h2 className="alternate-h2">Past Projects</h2>
+
                 <p>
-                  I created a publication about motorsports called{" "}
+                  In 2015, I co-founded{" "}
                   <a
                     href="https://www.theapex.racing/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     The Apex
-                  </a>{" "}
-                  with my friend Ben Hinc in 2015 but stepped away to focus on
-                  web development in 2020. An{" "}
-                  <a
-                    href="https://www.theapex.racing/2023/04/the-apex-back-refined-approach/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    attempted return in 2023 was exciting
                   </a>
-                  , but I quickly faced the difficult truth that my hands were
-                  full with coding and motocross.
+                  , a motorsports publication that evolved from broad racing
+                  coverage into a specialized, high-quality platform. It
+                  sharpened my ability to create engaging, strategic digital
+                  content, and though I stepped away from daily operations, I
+                  still edit and publish select articles.
                 </p>
+
                 <p>
                   I made a sports dictionary in second grade, an animal magazine
-                  in third grade, a newspaper in fifth grade, and a Twitter
-                  account and blog about IndyCar in eighth grade. I also started
-                  a band with my brother at some point. (Not to mention the
-                  Nitro Circus-esque front-yard action sports video series my
-                  brothers and I started; it never quite took off.)
+                  in third grade, a newspaper in fifth grade, and a blog about
+                  IndyCar in eighth grade. At some point, I also started a band
+                  with my brother.
+                </p>
+
+                <p>
+                  Not to mention the Nitro Circus-esque front-yard action sports
+                  video series my brothers and I filmed — it never quite took
+                  off.
                 </p>
 
                 <p>Does any of that count?</p>
 
                 <p>
-                  Perhaps not, but I'll admit I was one of <i>those</i> kids who
-                  did lots of extracurricular stuff growing up. I'd bet on young
-                  people like that 10 times out of 10; I would be very different
-                  now if I weren't so curious as a kid.
+                  Maybe not, but I'd bet on young people like that 10 times out
+                  of 10. Curiosity is everything.
                 </p>
               </div>
             </section>

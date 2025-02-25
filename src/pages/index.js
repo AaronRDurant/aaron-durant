@@ -22,16 +22,8 @@ const Home = ({ data, location }) => {
               </span>
             </p>
             <p className="hero-description small width">
-              I'm preparing for the 2025{" "}
-              <a
-                href="https://www.youtube.com/@aarondurant80"
-                target="_blank"
-                rel="noreferrer"
-                className="motocross"
-              >
-                motocross
-              </a>{" "}
-              season, diving into the new Supercross season on{" "}
+              I'm refining digital experiences, diving into key moments of the
+              2025 Supercross season on{" "}
               <a
                 href="https://www.tableovertwo.com/"
                 target="_blank"
@@ -39,7 +31,7 @@ const Home = ({ data, location }) => {
               >
                 Table Over Two
               </a>
-              , and exploring opportunities for my next professional role.
+              , and searching for my next opportunity.
             </p>
           </header>
           <div>

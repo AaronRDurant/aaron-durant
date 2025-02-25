@@ -12,49 +12,33 @@ const About = () => {
         <div className="grid">
           <div className="article-content">
             <div className="hero">
-              <h1>About Me</h1>
+              <h1>About</h1>
             </div>
             <section className="segment small">
               <div className="post-content">
                 <p>
-                  I'm a software developer, writer, and motocross racer based in
-                  Michigan. Currently, I'm preparing for the 2025{" "}
-                  <a
-                    href="https://www.youtube.com/@aarondurant80"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="motocross"
-                  >
-                    motocross
-                  </a>{" "}
-                  season while seeking a new software development or writing
-                  role.
+                  For nearly a decade, I've been refining digital experiences
+                  and exploring what separates good from great in UX, content,
+                  and motocross.
                 </p>
 
                 <p>
-                  Coding and motocross have been my main focuses since 2020.
-                  Everything came together in the second half of 2022 when I
-                  started my software development career in July and, in
-                  October, lapped a motocross track for the first time since
-                  2008.
-                </p>
-
-                <p>
-                  Between 2015 and 2020, I attended over three dozen motorsports
-                  events across North America with media credentials and
-                  published more than 1,500 articles on{" "}
+                  I co-founded{" "}
                   <a
                     href="https://www.theapex.racing/author/aaron-durant/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     The Apex
-                  </a>
-                  , a website I co-founded that's celebrating its 10th
-                  anniversary this year.
+                  </a>{" "}
+                  in 2015 as a broad motorsports publication. It evolved into a
+                  specialized, high-quality platform where I sharpened my
+                  ability to craft clear, engaging experiences and develop
+                  digital content that resonates.
                 </p>
+
                 <p>
-                  Recently, I started{" "}
+                  With{" "}
                   <a
                     href="https://www.tableovertwo.com"
                     target="_blank"
@@ -62,13 +46,29 @@ const About = () => {
                   >
                     Table Over Two
                   </a>
-                  , a new motocross publication.
+                  , I've taken that foundation further — combining my expertise
+                  in UX, content strategy, and motorsports storytelling to
+                  analyze racecraft, rider psychology, and pivotal moments in
+                  Supercross and motocross.
                 </p>
 
                 <p>
-                  I also enjoy playing drums, playing golf, snowboarding, taking
-                  in heavy metal concerts from the front row, and laughing with
-                  my family, girlfriend, and friends.
+                  Beyond writing about the sport, I'm{" "}
+                  <a
+                    href="https://www.youtube.com/@aarondurant80"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    pushing myself within it
+                  </a>{" "}
+                  by training, competing, and refining my skills on the bike.
+                </p>
+
+                <p>
+                  Outside of work, I'm just as obsessed with improving — on a
+                  motocross bike, a snowboard, or behind a drum kit. At the core
+                  of everything I do is a drive to refine, improve, and push the
+                  limits.
                 </p>
 
                 <StaticImage
