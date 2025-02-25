@@ -1,24 +1,39 @@
-# 👋🏻 Hey, I'm Aaron.
+# 🤘🏻 Aaron Durant
 
-🏗️ **Building, writing, and optimizing things.**
-🛠️ **Crafting intuitive web experiences through UX strategy, clear communication, and thoughtful problem-solving.**
+My personal website, built with Gatsby.
 
-## 🚀 What I'm Working On
+## 🚀 Overview
 
-- **Clarkston Glass** → Designing and developing a clean, intuitive website for a local business.
-- **Table Over Two** → Exploring motocross mindset, strategy, and performance.
-- **Rebuilding my personal site** → Migrating to Next.js for a more streamlined experience.
-- **Freelance web projects** → Helping businesses improve their online presence.
+This is my personal website, a fast and minimalist static site built with **Gatsby**, designed for simplicity, speed, and easy content management. It serves as a hub for my work, writing, and web development experiments.
 
-## 🔍 What Drives Me
+The site features a minimalist design with a focus on readability and performance. The blog is powered by **Markdown files**, allowing for a lightweight and flexible approach to writing.
 
-- **Great user experiences** → Clear, thoughtful design makes everything better.
-- **Creative problem-solving** → Whether in code, writing, or racing, details matter.
-- **Racing & competition** → Pushing limits, refining strategy, and constant improvement.
+## ⚡ Tech Stack
 
-## 🌎 Where to Find Me
+- **[Gatsby](https://www.gatsbyjs.com/)** — Static site framework optimized for speed & SEO
+- **[React](https://react.dev/)** — Component-based UI library for dynamic interactivity
+- **[Tailwind CSS](https://tailwindcss.com/)** — Utility-first styling for a sleek, responsive UI
+- **[Netlify](https://www.netlify.com/)** — Seamless hosting with CI/CD for instant deployments
+- **Markdown** — Lightweight, file-based content management for writing & blogging
+
+## 📖 Features
+
+- ⚡ **Blazing-fast performance** with Gatsby's static site generation
+- 📱 **Fully responsive** for seamless viewing on mobile & desktop
+- ✍️ **File-based Markdown blog** for effortless content management
+
+## 📌 Roadmap
+
+- 🏗️ **Next.js Rebuild** — Migrating from Gatsby to Next.js for greater flexibility, performance, and long-term maintainability.
+- ✍️ **Content & Design Overhaul** — Refreshing both the site's writing and visual style to better reflect who I am today.
+- 🔍 **Improved SEO & Metadata** — Refining structured data and OpenGraph settings for better visibility and richer link previews.
+
+## 📝 License
+
+This project is open-source under the [MIT License](LICENSE), but **the site's branding, design, and content are not covered under this license**. The code is freely available, but please do not directly copy the **name, logo, or content**.
+
+## 📬 Connect
 
 - **Website:** [aarondurant.com](https://aarondurant.com/)
+- **Email:** [aaron@aarondurant.com](mailto:aaron@aarondurant.com)
 - **X:** [@aarondurant80](https://x.com/aarondurant80)
-- **YouTube:** [@aarondurant80](https://www.youtube.com/@aarondurant80)
-- **Strava:** [Aaron Durant](https://www.strava.com/athletes/70892495)
