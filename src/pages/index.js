@@ -22,16 +22,8 @@ const Home = ({ data, location }) => {
               </span>
             </p>
             <p className="hero-description small width">
-              I'm refining digital experiences, diving into key moments of the
-              2025 Supercross season on{" "}
-              <a
-                href="https://www.tableovertwo.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Table Over Two
-              </a>
-              , and searching for my next opportunity.
+              I'm getting organized, honing my craft through meaningful
+              projects, and pursuing my next high-impact role.
             </p>
           </header>
           <div>
