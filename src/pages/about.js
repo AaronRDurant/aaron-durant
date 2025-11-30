@@ -17,58 +17,75 @@ const About = () => {
             <section className="segment small">
               <div className="post-content">
                 <p>
-                  For nearly a decade, I've been refining digital experiences
-                  and exploring what separates good from great in UX, content,
-                  and motocross.
+                  I'm a front-end engineer who cares deeply about clarity,
+                  performance, and thoughtful UX.
                 </p>
 
                 <p>
-                  I co-founded{" "}
+                  For more than a decade, I've been designing and building
+                  digital experiences at the intersection of front-end
+                  engineering, UX, and content systems — all centered on making
+                  complex information feel simple and usable.
+                </p>
+
+                <p>
+                  I started in motorsports media, co-founding{" "}
                   <a
-                    href="https://www.theapex.racing/author/aaron-durant/"
+                    href="https://www.theapex.racing/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     The Apex
                   </a>{" "}
-                  in 2015 as a broad motorsports publication. It evolved into a
-                  specialized, high-quality platform where I sharpened my
-                  ability to craft clear, engaging experiences and develop
-                  digital content that resonates.
+                  as an independent publication covering North American racing.
+                  I owned everything users touched: information architecture,
+                  layout systems, editorial workflows, performance, and SEO.
+                  That end-to-end ownership naturally led me into front-end
+                  engineering, where I now specialize in React, Next.js, and
+                  clean, predictable interfaces.
                 </p>
 
                 <p>
                   With{" "}
                   <a
-                    href="https://www.tableovertwo.com"
+                    href="https://www.tableovertwo.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Table Over Two
                   </a>
-                  , I've taken that foundation further — combining my expertise
-                  in UX, content strategy, and motorsports storytelling to
-                  analyze racecraft, rider psychology, and pivotal moments in
-                  Supercross and motocross.
-                </p>
-
-                <p>
-                  Beyond writing about the sport, I'm{" "}
+                  , I've taken that blend of engineering and content thinking
+                  further by building a modern Next.js + Ghost CMS stack for
+                  analysis-driven Supercross and motocross coverage. The
+                  publication has earned media accreditation and has been
+                  credentialed at multiple Monster Energy Supercross rounds —
+                  all on a platform I designed and built myself. I'm also in the
+                  early stages of launching{" "}
                   <a
-                    href="https://www.youtube.com/@aarondurant80"
+                    href="https://www.lucidsuspension.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    pushing myself within it
-                  </a>{" "}
-                  by training, competing, and refining my skills on the bike.
+                    Lucid Suspension
+                  </a>
+                  , a dirt bike suspension service built around a transparent,
+                  modern customer experience.
                 </p>
 
                 <p>
-                  Outside of work, I'm just as obsessed with improving — on a
-                  motocross bike, a snowboard, or behind a drum kit. At the core
-                  of everything I do is a drive to refine, improve, and push the
-                  limits.
+                  As a motocross racer, I bring the sport's mindset into my
+                  front-end work — deliberate practice, pressure management, and
+                  a constant focus on refinement. That shows up in how I work:
+                  steady iteration, clear feedback loops, and attention to
+                  detail that compounds over time.
+                </p>
+
+                <p>
+                  Outside of work, you'll usually find me riding, training,
+                  snowboarding, drumming, or building something new. The common
+                  thread is the same: I like solving problems, I like improving
+                  systems, and I like making experiences that feel smooth,
+                  obvious, and well-designed.
                 </p>
 
                 <StaticImage

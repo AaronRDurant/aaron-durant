@@ -14,16 +14,13 @@ const Home = ({ data, location }) => {
       <div className="container">
         <div className="hero-wrapper">
           <header className="hero index">
-            <h1>Hey, I'm Aaron!</h1>
+            <h1>Hey, I'm Aaron.</h1>
             <p className="hero-description small width">
-              Fancy seeing you here.{" "}
-              <span role="img" aria-label="Fist emoji" className="emoji">
-                👊🏻
-              </span>
+              Glad you made it here.
             </p>
             <p className="hero-description small width">
-              I'm getting organized, honing my craft through meaningful
-              projects, and pursuing my next high-impact role.
+              I'm sharpening my skills through focused projects and rebuilding
+              momentum for my next high-impact front-end engineering role.
             </p>
           </header>
           <div>
